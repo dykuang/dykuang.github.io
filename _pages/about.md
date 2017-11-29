@@ -17,5 +17,5 @@ Hello, welcome to my personal site. This site is still under construction. I wil
 ### Another geodesic on the same revolutional ellipzoid ###
 <video src="/images/geo_ellipzoid.mp4" width="720" height="360" controls preload></video>
 
-### Different geodesics on the surface \[ f(x, y) = exp(-x^2/2-y^2)\] ###
+### Different geodesics on the surface \$$ f(x, y) = exp(-x^2/2-y^2)$$ ###
 <video src="/images/geo_2dGauss.mp4" width="720" height="360" controls preload></video>
