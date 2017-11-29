@@ -13,10 +13,10 @@ Hello, welcome to my personal site. This site is still under construction. I wil
 
 ### One geodesic on a revolutional ellipzoid ###
 
-<video src="/images/geo_Ellipzoid1.mp4" width="720" height="300" controls preload></video>
+<video src="/images/geo_Ellipzoid1.mp4" width="720" height="360" controls preload></video>
 
 ### Another geodesic on the same revolutional ellipzoid ###
-<video src="/images/geo_ellipzoid.mp4" width="720" height="300" controls preload></video>
+<video src="/images/geo_ellipzoid.mp4" width="720" height="360" controls preload></video>
 
-### Different geodesics on the surface $f(x, y) = exp(\frac{x^2+y^2}{2})$###
+### Different geodesics on the surface \( f(x, y) = exp(\frac{x^2+y^2}{2}) \) ###
 <video src="/images/geo_2dGauss.mp4" width="720" height="360" controls preload></video>
