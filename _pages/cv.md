@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-I am currently a postdoc fellow in the Data Science and Machine Learning group of UOttawa's Math & Stats department. I have a broad interest in mathematical modeling and data analysis. My current duties includes utilizing theories from geometries/mechanics for feature extraction and developing registration/learning tools for making inferences from medical images.
+I am currently a postdoc fellow in the Data Science and Machine Learning group of UOttawa's Math & Stats department. I have a broad interest in mathematical modelling and data analysis. My current duties includes utilizing theories from geometries and mechanics for feature extraction tasks and developing registration/learning tools for making inferences from medical images. I am relatively new to this field and am learning new things everyday in this promising field.
 
 Education
 ======
