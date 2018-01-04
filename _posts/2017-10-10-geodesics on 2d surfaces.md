@@ -11,17 +11,17 @@ Geometries can be fun, though it will require a deep and strict mathematical for
 
 If the manifold is a smooth 3d graph or a smooth 2d surface where things are not too complicated there. We can directly work on the configuration space, write down the patch map, the corresponding EL-equation and uses certain numerical schemes to integration out the solution. It should be aware that systems like this usually will have intrinsic invariance or symmetries, so it is better to use a symplectic integrator for *long* geodesics.
 
-The following .mp4 files illustrates some geodesics on selected surfaces. You can download .py files [here](https://dykuang.github.io/Files/Geo_ellipzoid.py) for  the revolutional ellipzoid animation and [here](https://dykuang.github.io/Files/Geo_2dGauss.py) for the Gaussian-density-liked surface 
+The following .mp4 files illustrates some geodesics on selected surfaces. You can download .py files [here](https://dykuang.github.io/Files/Geo_ellipzoid.py) for  the revolutional ellipzoid animation and [here](https://dykuang.github.io/Files/Geo_2dGauss.py) for the Gaussian-density-liked surface. 
 
-**Q**:For general ellipzoid, i.e. \(x^2/a^2 + y^2/b^2 + z^2/c^2 = 1\), where \(a, b ,c\) are all different. The program can give very wired curves. I did not find many useful contents about geodesics on general ellipzoid from google, is it still an open question? or at least part of it? 
+**Q**: For general ellipzoid, i.e. \(x^2/a^2 + y^2/b^2 + z^2/c^2 = 1\), where \(a, b ,c\) are all different. The program can give very wired curves. I did not find many useful contents about geodesics on general ellipzoid from google, is it still an open question? or at least part of it? 
 
-### One geodesic on a revolutional ellipzoid ###
-<video src="/images/geo_Ellipzoid1.mp4" width="720" height="360" controls preload></video>
+* ### One geodesic on a revolutional ellipzoid ###
+ <video src="/images/geo_Ellipzoid1.mp4" width="720" height="360" controls preload></video>
 
-### Another geodesic on the same revolutional ellipzoid ###
+* ### Another geodesic on the same revolutional ellipzoid ###
 <video src="/images/geo_ellipzoid.mp4" width="720" height="360" controls preload></video>
 
-### Different geodesics on the surface \$$ f(x, y) = exp(-x^2/2-y^2)$$ ###
+* ### Different geodesics on the surface \$$ f(x, y) = exp(-x^2/2-y^2)$$ ###
 <video src="/images/geo_2dGauss.mp4" width="720" height="360" controls preload></video>
 
 
