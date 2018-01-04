@@ -9,8 +9,6 @@ location: "Cedar City, USA"
 ---
 
 Trigonometry and Algebra
-======
 
 Calculus I
-======
 
