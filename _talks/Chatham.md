@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/Chatham
 venue: "Chatham University"
-date: 2012-03-01
+date: 2017-02-03
 location: "Pittsburgh, Pennsylvania, USA"
 ---
 
