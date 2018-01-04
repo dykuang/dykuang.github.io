@@ -9,7 +9,5 @@ location: "Ottawa, CA"
 ---
 
 
-Calculus I
-
-Mathematical Method I
+Calculus I and Mathematical Method I
 
