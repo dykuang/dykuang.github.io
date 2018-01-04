@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "A Conservative Formulation and a Numerical Algorithm for the Double-Gyre Nonlinear Shallow-Water Model"
 collection: publications
 permalink: /publication/2015-11-10-Double Gyre
 excerpt: 'A Conservative Formulation and a Numerical Algorithm for the Double-Gyre Nonlinear Shallow-Water Model.'
