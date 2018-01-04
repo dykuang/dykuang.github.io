@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 {% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{https://scholar.google.ca/citations?hl=en&user=CdlcSHQAAAAJ&view_op=list_works&gmla=AJsN-F4V1rJfErFaJSSKFspypzDMqu1OTq73jVSZyrCBMmbZDo3bkvGH54ftbmPIDHLggFCGb9yg7jg-gRRUwu_pUahV3SXOrBfc0Xn1_Ql-M0iWJJhxmHg}}">my Google Scholar profile</a>.</u>
+  You can also find my articles on <u><a href="{{https://scholar.google.com/citations?user=CdlcSHQAAAAJ&hl=en}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
 {% include base_path %}
