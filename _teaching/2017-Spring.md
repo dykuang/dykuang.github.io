@@ -8,7 +8,5 @@ date: 2017-01-10
 location: "Cedar City, USA"
 ---
 
-Trigonometry and Algebra
-
-Calculus I
+Trigonometry and Algebra and Calculus I
 
