@@ -15,5 +15,5 @@ cluster/classification task for shape outlines.
 
 [Check the publication here](http://epubs.siam.org/doi/abs/10.1137/15M104373X?journalCode=sjisbi)
 
-Recommended citation: Robert Camassa, Dongyang Kuang and Long Lee. <i>A Geodesic Landmark Shooting Algorithm for Template Matching and Its Applications. SIAM J. Imaging Sci., 10(1), 303–334.<\i> 1(3)
+Recommended citation: Robert Camassa, Dongyang Kuang and Long Lee. <i>A Geodesic Landmark Shooting Algorithm for Template Matching and Its Applications. SIAM J. Imaging Sci., 10(1), 303–334.</i> 1(3)
 
