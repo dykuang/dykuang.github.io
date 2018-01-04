@@ -11,30 +11,24 @@ redirect_from:
 
 Education
 ======
-* B.S. in Github, Github University, 2012
-* M.S. in Jekyll, Github University, 2014
-* Ph.D in Version Control Theory, Github University, 2018 (expected)
+* B.S. in Mathematics and Applied Mathematics, [University of Science and Technology of China](http://en.ustc.edu.cn/), Hefei, China, 2011.
+* Ph.D in Applied Mathematics, [University of Wyoming](http://www.uwyo.edu/), Laramie, Wyoming, USA, 2016.
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Sep 2017 - Present: Postdoc Fellow
+  * [University of Ottawa](https://www.uottawa.ca/en)
+  * Duties includes: Developing new models with machine learning/deep learning tools for medical image registration and other computer vision tasks. Check our [group website](http://mysite.science.uottawa.ca/dsml/) for more details.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Aug 2016 - May 2017: Visiting Assistant Professor
+  * [Southern Utah University](https://www.suu.edu/)
+  * Duties includes: Teaching Mathematics and conduct interdisciplinary researches
   
-Skills
+Programming Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Most experienced: Matlab, Python (Keras/Tensorflow, scikit-learn)
+* Less experienced: C++, C, R, Mathematica.
+* Had experience: Sql
 
 Publications
 ======
@@ -54,6 +48,3 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
