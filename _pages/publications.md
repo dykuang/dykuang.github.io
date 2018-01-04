@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 {% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{Dongyang Kuang.googlescholar}}">my Google Scholar profile</a>.</u>
+  You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=CdlcSHQAAAAJ&hl=en)
 {% endif %}
 
 {% include base_path %}
