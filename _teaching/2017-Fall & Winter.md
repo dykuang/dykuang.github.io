@@ -10,7 +10,6 @@ location: "Ottawa, CA"
 
 
 Calculus I
-======
 
 Mathematical Method I
-======
+
