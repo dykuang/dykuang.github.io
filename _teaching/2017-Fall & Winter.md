@@ -1,5 +1,5 @@
 ---
-title: "Teaching @ UOttawa"
+title: "Teaching @ UOttawa, 2017 - 2018"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2017-Fall & Winter
