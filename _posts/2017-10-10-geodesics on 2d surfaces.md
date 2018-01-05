@@ -16,7 +16,7 @@ The following .mp4 files illustrates some geodesics on selected surfaces. You ca
 
 **Q**: For general ellipzoid, i.e.
 
-$x^2/a^2 + y^2/b^2 + z^2/c^2 = 1$,
+$ \frac{x^2}{a^2} + \frac{y^2}{b^2} + \frac{z^2}{c^2} = 1$,
 
 where $a$, $b$, $c$ are all different. The program can give very wired curves. I did not find many useful contents about geodesics on general ellipzoid from google, is it still an open question? or at least part of it? 
 
@@ -26,7 +26,7 @@ where $a$, $b$, $c$ are all different. The program can give very wired curves. I
 * ### Another geodesic on the same revolutional ellipzoid ###
 <video src="/images/geo_ellipzoid.mp4" width="720" height="360" controls preload></video>
 
-* ### Different geodesics on the surface $ f(x, y) = exp(-x^2/2-y^2)$ ###
+* ### Different geodesics on the surface $ f(x, y) = exp(-\frac{x^2}{2}-y^2)$ ###
 <video src="/images/geo_2dGauss.mp4" width="720" height="360" controls preload></video>
 
 
