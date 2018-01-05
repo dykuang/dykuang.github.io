@@ -7,9 +7,9 @@ Here are some photos of sunsets from few places I visited. I am not a good photo
 
 Sunset of the Great Salk Lake
 ------
-<img src='/images/sunset-sl (1).jpg'>
 <img src='/images/sunset-sl (2).jpg'>
 <img src='/images/sunset-sl (3).jpg'>
+<img src='/images/sunset-sl (1).jpg'>
 
 Sunset of Keywest
 ------
