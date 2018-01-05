@@ -2,6 +2,7 @@
 title: 'geodesics on 2d surfaces'
 date: 2017-10-10
 permalink: /posts/2017/10/geodesics on 2d surfaces/
+mathjax: true
 tags:
   - geodesics
   - python
