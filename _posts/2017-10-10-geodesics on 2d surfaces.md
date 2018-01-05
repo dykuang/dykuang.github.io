@@ -14,7 +14,7 @@ If the manifold is a smooth 3d graph or a smooth 2d surface where things are not
 
 The following .mp4 files illustrates some geodesics on selected surfaces. You can download .py files [here](https://dykuang.github.io/Files/Geo_ellipzoid.py) for  the revolutional ellipzoid animation and [here](https://dykuang.github.io/Files/Geo_2dGauss.py) for the Gaussian-density-liked surface. 
 
-**Q**: For general ellipzoid, i.e. \(x^2/a^2 + y^2/b^2 + z^2/c^2 = 1\), where \(a, b ,c\) are all different. The program can give very wired curves. I did not find many useful contents about geodesics on general ellipzoid from google, is it still an open question? or at least part of it? 
+**Q**: For general ellipzoid, i.e. $x^2/a^2 + y^2/b^2 + z^2/c^2 = 1$, where \(a, b ,c\) are all different. The program can give very wired curves. I did not find many useful contents about geodesics on general ellipzoid from google, is it still an open question? or at least part of it? 
 
 * ### One geodesic on a revolutional ellipzoid ###
  <video src="/images/geo_Ellipzoid1.mp4" width="720" height="360" controls preload></video>
