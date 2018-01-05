@@ -1,6 +1,6 @@
 ---
 title: "Sunsets"
-excerpt: "Sunsets collections<br/><img src='/images/sunset-sl(1).jpg'>"
+excerpt: "Sunsets collections<br/><img src='/images/sunset-sl (1).jpg'>"
 collection: portfolio
 ---
 Here are some photos of sunsets from few places I visited. I am not a good photographer, you can make better shots during your visits!
