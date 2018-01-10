@@ -1,6 +1,6 @@
 ---
 title: "Thin-plate-spline deformation using EP particle system"
-excerpt: "Deforming to hand<br/> <video src="/Files/c2hand.avi" width="720" height="360" controls preload></video>"
+excerpt: "Deforming between shapes<br/> <video src="/Files/c2hand.avi" width="720" height="360" controls preload></video>"
 collection: portfolio
 ---
 
