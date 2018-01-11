@@ -4,7 +4,6 @@ collection: publications
 permalink: /publication/2015-11-10-Double Gyre
 date: 2015-11-10
 venue: 'Numerical Mathematics: Theory, Methods and Applications'
-paperurl: 'https://www.cambridge.org/core/journals/numerical-mathematics-theory-methods-and-applications/article/conservative-formulation-and-a-numerical-algorithm-for-the-doublegyre-nonlinear-shallowwater-model/AFF736980A1432DF5594D4E16D8E3A2C'
 ---
 
 [Check the publication here](https://www.cambridge.org/core/journals/numerical-mathematics-theory-methods-and-applications/article/conservative-formulation-and-a-numerical-algorithm-for-the-doublegyre-nonlinear-shallowwater-model/AFF736980A1432DF5594D4E16D8E3A2C)
