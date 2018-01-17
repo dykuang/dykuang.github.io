@@ -1,5 +1,5 @@
 ---
-title: "Evoloving landmarks with Thin-plate-spline deformation and an EP particle system"
+title: "Evolving landmarks with Thin-plate-spline deformation and an EP particle system"
 excerpt: "Deforming between shapes<br/> <video src='/Files/c2hand.mp4' width='720' height='360' controls preload></video>"
 collection: portfolio
 ---
