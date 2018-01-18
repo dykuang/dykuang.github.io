@@ -5,7 +5,7 @@ collection: portfolio
 ---
 Here are some photos of sunsets from few places I visited. I am not a good photographer, you can make better shots during your visits!
 
-Sunset of the Great Salk Lake
+Sunset of the Great Salt Lake
 ------
 <img src='/images/sunset-sl (2).jpg'>
 <img src='/images/sunset-sl (3).jpg'>
