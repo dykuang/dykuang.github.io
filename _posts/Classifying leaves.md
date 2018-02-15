@@ -17,7 +17,9 @@ In industry, automatic recognition of plants is also useful for tasks such as sp
 
 ## Data sets
  *[UCI's machine learning repository](https://archive.ics.uci.edu/ml/datasets/leaf). A small data set. Algorithms may show large fluctuations with different train/test splits.
+ 
  *[Swedish leaf dataset](http://www.cvl.isy.liu.se/en/research/datasets/swedish-leaf/). A benchmark data set that is used in many papers, this [website](https://qixianbiao.github.io/Leaf.html) lists some state-of-art methods to compare. (Maybe outdated.) The classifier is tuned based on this dataset.
+ 
  *[UCI's 100 leaf](https://archive.ics.uci.edu/ml/datasets/One-hundred+plant+species+leaves+data+set). 
  There was a [Kaggle competition](https://www.kaggle.com/c/leaf-classification) on this.
  
