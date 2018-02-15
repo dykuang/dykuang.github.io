@@ -39,7 +39,7 @@ is the center of image which can be computed by image moments. It is important t
 are sampled.
 Below are contours extracted from the original images.
 
-<img src = '/images/swedish_leaf.png'>
+<img src = '/images/swedish_leaf.png' height="420" width="360">
 
 In this way, leaves are converted into time series and techniques for time serires can be applied. Some easy extension from this may include
 `power spectra` and `auto correlation function (acf)` can be extrated as signatures of the CCDC and fead into the classifier. Fancier techinque
@@ -71,7 +71,7 @@ Though maybe comparable, this result is still lower than some other methods test
 
 I got stucked here for a while and one day the 1d convolution idea came to my mind when I was reading the moving average model. If we want to classify a time series, we need to study its signatures at different scales. A sliding window (kernel) for examination with different sizes and strides serves perfectly for such tasks. This idea help me form a new architecutre that looks the same as one naive module in Google's Inception Net...
 
-<img src = '/images/leafnet.png'>
+<img src = '/images/leafnet.png' height="720" width="360">
 
 This architectures as a feature extractor for pretraining data and spits nearly linear separable features + pca + a kernel svm on top as a classifier turns out to perform pretty well. For all the three datasets mentioned (with 10% withholded as test set), it can reach to >90% accuracy without particular hyperparameter tuning. For the swedish leaf data set, particularly, it can get to >99% test accuracy. All these performance are achieved with only CCDC feature as input. This simply feature does contain much useful information and the idea of convolution is really impressive. If you would like to check out more details, please check the project [repository](https://github.com/dykuang/Leaf_Project). 
 
