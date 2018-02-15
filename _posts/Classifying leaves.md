@@ -42,7 +42,7 @@ Below are contours extracted from the original images.
 <img src = '/images/swedish_leaf.png' height="960" width="960">
 
 In this way, leaves are converted into time series and techniques for time serires can be applied. Some easy extension from this may include
-`power spectra` and `auto correlation function (acf)` can be extrated as signatures of the CCDC and fead into the classifier. Fancier techinque
+`power spectra` and `auto correlation function (acf)` can be extrated as signatures of the CCDC and be fed into the classifier. Fancier techinque
 like dynamic time warping (DTW) may also be applied. This [website](http://timeseriesclassification.com/) contains many algorithms for time series.
 
 ### Main Classifier
