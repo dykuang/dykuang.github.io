@@ -39,7 +39,7 @@ is the center of image which can be computed by image moments. It is important t
 are sampled.
 Below are contours extracted from the original images.
 
-<img src = '/images/swedish_leaf.png' height="1024" width="1024">
+<img src = '/images/swedish_leaf.png' height="960" width="960">
 
 In this way, leaves are converted into time series and techniques for time serires can be applied. Some easy extension from this may include
 `power spectra` and `auto correlation function (acf)` can be extrated as signatures of the CCDC and fead into the classifier. Fancier techinque
