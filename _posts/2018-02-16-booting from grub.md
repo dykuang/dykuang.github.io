@@ -35,6 +35,7 @@ grub> Linux /vmlinuz root=/dev/sta5
 grub> initrd /initrd.img
 grub> boot
 ```
+
 *If you do not know where your root device is, you can use `UUID` for specifying the path.
 type `cat /etc/fstab` and check the output. The `UUID` for the root device is located in the entry where `\` is in the `<mount on>`
 column. Then you can replace `root=/dev/sta5` by `root=UUID=[UUID you found]`.
