@@ -82,12 +82,13 @@ Here is a picture shown using TSNE algorithm that embeds features output from th
 
 ### On classifying time series
 This model actually works pretty good for classifying 1 dimensional time series. Its performance on some datasets on this [website](http://timeseriesclassification.com/dataset.php) can be checked in the following table. The model is without any hyperparameter tunning.
-| Dataset       | Best Accuracy | Method  | 1dCovNet |
-| ------------- |:-------------:| -----:|  -----: |
-|  ChlorineConcentration     | 90.41%  | SVM(quadratic) |99.77% |
-| InsectWingbeatSound      | 64.27%     |   Random Forrest | 76.61%|
-| ElectricDevices | 89.54%| Shapelet Transform     | 94.34%    |
-| DistalPhalanXTW | 69.32% | Random Forrest    | 71.22%    |
+
+| Dataset       | Best Accuracy  | Method            |1dCovNet|   
+|---------------|:--------------:|------------------:|-------:|  
+| ChlorineConcentration | 90.41% | SVM(quadratic)    | 99.77% |  
+| InsectWingbeatSound   | 64.27% | Random Forrest    | 76.61% |  
+| ElectricDevices       | 89.54% | Shapelet Transform| 94.34% |  
+| DistalPhalanXTW       | 69.32% | Random Forrest    | 71.22% |  
 
 
 ## Conclusions
