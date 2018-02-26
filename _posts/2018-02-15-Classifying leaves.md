@@ -7,6 +7,7 @@ tags:
   - neural network
   - python
   - leaf recognition
+  - time series
 ---
 
 ## Why Leaves?
@@ -79,6 +80,16 @@ Here is a picture shown using TSNE algorithm that embeds features output from th
 
 <img src = '/images/tsne2d.png'>
 
+### On classifying time series
+This model actually works pretty good for classifying 1 dimensional time series. Its performance on some datasets on this [website](http://timeseriesclassification.com/dataset.php) can be checked in the following table. The model is without any hyperparameter tunning.
+| Dataset       | Best Accuracy | Method  | 1dCovNet |
+| ------------- |:-------------:| -----:|  -----: |
+|  ChlorineConcentration     | 90.41%  | SVM(quadratic) |99.77% |
+| InsectWingbeatSound      | 64.27%     |   Random Forrest | 76.61%|
+| ElectricDevices | 89.54%| Shapelet Transform     | 94.34%    |
+| DistalPhalanXTW | 69.32% | Random Forrest    | 71.22%    |
+
+
 ## Conclusions
 
 I guess I need to summarize things I learned with much time spent on this topic for purposes of future references:
@@ -87,6 +98,8 @@ I guess I need to summarize things I learned with much time spent on this topic 
 
 * As for the architecutre design, it may be better to start with those state-of-art-models to see if certain part or the whole can be 
 migrated with modifications for your own project. Though the process of "rediscovery" could be fun, it may exhaust a lot of time...
+
+* Should have a more systematic way for tuning many of the paramters and evaluating the model. It is better to write a script that logs changes so that you do not lose those good paramters tried.
 
 
 
