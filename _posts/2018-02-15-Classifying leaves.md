@@ -72,7 +72,7 @@ Though maybe comparable, this result is still lower than some other methods test
 
 I got stucked here for a while and one day the 1d convolution idea came to my mind when I was reading the moving average model. If we want to classify a time series, we need to study its signatures at different scales. A sliding window (kernel) for examination with different sizes and strides serves perfectly for such tasks. This idea help me form a new architecutre that looks the same as one naive module in Google's Inception Net...
 
-<img src = '/images/leafnet.png'>
+<img src = '/images/conv1NN.png'>
 
 This architectures as a feature extractor for pretraining data and spits nearly linear separable features + pca + a kernel svm on top as a classifier turns out to perform pretty well. For all the three datasets mentioned (with 10% withholded as test set), it can reach to >90% accuracy without particular hyperparameter tuning. For the swedish leaf data set, particularly, it can get to >99% test accuracy. All these performance are achieved with only CCDC feature as input. This simply feature does contain much useful information and the idea of convolution is really impressive. If you would like to check out more details, please check the project [repository](https://github.com/dykuang/Leaf_Project). 
 
@@ -83,12 +83,12 @@ Here is a picture shown using TSNE algorithm that embeds features output from th
 ### On classifying time series
 This model actually works pretty good for classifying 1 dimensional time series. Its performance on some datasets on this [website](http://timeseriesclassification.com/dataset.php) can be checked in the following table. The model is without any hyperparameter tunning.
 
-| Dataset       | Best Accuracy  | Method            |1dCovNet|   
-|---------------|:--------------:|------------------:|-------:|  
-| ChlorineConcentration | 90.41% | SVM(quadratic)    | 99.77% |  
-| InsectWingbeatSound   | 64.27% | Random Forrest    | 76.61% |  
-| ElectricDevices       | 89.54% | Shapelet Transform| 94.34% |  
-| DistalPhalanXTW       | 69.32% | Random Forrest    | 71.22% |  
+| Dataset       | Best Accuracy  | Method            |1dCovNet    |   
+|---------------|:--------------:|:-----------------:|:----------:|  
+| ChlorineConcentration | 90.41% | SVM(quadratic)    | **99.77%** |  
+| InsectWingbeatSound   | 64.27% | Random Forrest    | **76.61%** |  
+| ElectricDevices       | 89.54% | Shapelet Transform| **94.34%** |  
+| DistalPhalanXTW       | 69.32% | Random Forrest    | **71.22%** |  
 
 
 ## Conclusions
