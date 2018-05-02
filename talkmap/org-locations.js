@@ -8,5 +8,10 @@ var addressPoints = [
     "Laramie, WY",
     41.311367,
     -105.591101
+  ],
+  [
+    "Ottawa, Ontario, Canada",
+    45.421106,
+    -75.690308
   ]
 ];
