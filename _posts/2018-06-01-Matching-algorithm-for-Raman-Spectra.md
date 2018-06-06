@@ -36,7 +36,7 @@ The following figure shows an example of detected peaks.
 <img src = '/images/Peak_Detection.png' height="320" width="480">
 
 We do not use all the peaks from its output but first $N$ peaks ranked by their intensity. 
-It helps to reduce unnecessary errors since peaks outputted from `\textit{find\_peaks\_cwt}` with low intensity could be misdetections.
+It helps to reduce unnecessary errors since peaks outputted from `find_peaks_cwt` with low intensity could be misdetections.
 
 One way to proceed from this is to approximate these peaks with Gaussians, then apply existing methods on these approxiated "spectra" instead of
 original ones. Our limited experiments shows this idea acutually can give comparable/better results. Another way we considerred is by completely
@@ -51,10 +51,10 @@ does not perform well with <10 Bezene derivatives (their chemical structures are
 |:--------:|:------------:|:-----------------:| 
 |S1 | O-xylene, Toluene| O-xylene, Toluene, Pyridine|
 |S2 | Aniline, Pyridine| Aniline, O-xylene, Polystyrene|
-|S3 | Aniline, O-xylene| O-xylene, <\span style = "color: red"> Pyridine, Polystyrene <\span>|
+|S3 | Aniline, O-xylene| O-xylene, <span style = "color: red"> Pyridine, Polystyrene </span>|
 |S4 | O-xylene, Pyridine| O-xylene, Pyridine, Toluene|
 |S5 | O-xylene, Pyridine, Toluene| O-xylene, Pyridine, Toluene|
-|S6 | Aniline, Toluene | <\span style = "color: red">Polystyrene <\span>, Analine, Toluene |
+|S6 | Aniline, Toluene | <span style = "color: red">Polystyrene </span>, Analine, Toluene |
 
 ## Some further thoughts
 Preprocesss plays a very important role here, commercial handheld spectromter is able to perform reasonable well using easy metrics such as dot
