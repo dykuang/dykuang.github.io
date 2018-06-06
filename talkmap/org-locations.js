@@ -5,6 +5,11 @@ var addressPoints = [
     -79.9900861
   ],
   [
+    "Ottawa, Ontario, USA",
+    45.25659,
+    -75.6221299
+  ],
+  [
     "Laramie, WY",
     41.311367,
     -105.591101
