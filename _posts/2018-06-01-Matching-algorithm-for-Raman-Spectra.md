@@ -27,8 +27,7 @@ detection as did in the leaf classification when I first saw this problem. I soo
 abandoned this idea since their library at hand only has one instance per molecule. It probably can be expanded by some augmentation techniques,
 but I suspect it bring much benefit. Our group ended up choosing the direction with analytical approaches. From the physics point of view, 
 one of the most important footprints in the Raman spectral that help code different chemicals is the location of peaks. 
-In order to obtain such parameters, we will first truncate the spectra within a universal window (wavenumber from 200 to 1800),  
-normalized the truncated spectra by its $L_2$ norm, smooth the data by the moving average method and then use function 
+In order to obtain such parameters, we will first truncate the spectra within a universal window (wavenumber from 200 to 1800), normalized the truncated spectra by its $L_2$ norm, smooth the data by the moving average method and then use function 
 `find_peaks_cwt` from `scipy.signal` package. 
 
 The following figure shows an example of detected peaks.
