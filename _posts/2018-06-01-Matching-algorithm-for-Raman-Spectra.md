@@ -47,14 +47,14 @@ We did it in an easy way by converting these peak locations using histograms. We
 as the similarity metric between the converted distribution from two spectra.  On a very small but selected test dataset where tradtional methods
 does not perform well with <10 Bezene derivatives (their chemical structures are quite similar), we were able to get some nice results: 
 
-		|Mixture ID|  Composition | Prediction (Top 3)|
-    |:--------------:|:-----------------:|:--------------:| 
-		|S1 | O-xylene, Toluene| O-xylene, Toluene, Pyridine|
-		|S2 | Aniline, Pyridine| Aniline, O-xylene, Polystyrene|
-		|S3 | Aniline, O-xylene| O-xylene, <\span style = "color: red"> Pyridine, Polystyrene <\span>|
-		|S4 | O-xylene, Pyridine| O-xylene, Pyridine, Toluene|
-		|S5 | O-xylene, Pyridine, Toluene| O-xylene, Pyridine, Toluene|
-		|S6 | Aniline, Toluene | <\span style = "color: red">Polystyrene <\span>, Analine, Toluene |
+|Mixture ID|  Composition | Prediction (Top 3)|
+|:--------:|:------------:|:-----------------:| 
+|S1 | O-xylene, Toluene| O-xylene, Toluene, Pyridine|
+|S2 | Aniline, Pyridine| Aniline, O-xylene, Polystyrene|
+|S3 | Aniline, O-xylene| O-xylene, <\span style = "color: red"> Pyridine, Polystyrene <\span>|
+|S4 | O-xylene, Pyridine| O-xylene, Pyridine, Toluene|
+|S5 | O-xylene, Pyridine, Toluene| O-xylene, Pyridine, Toluene|
+|S6 | Aniline, Toluene | <\span style = "color: red">Polystyrene <\span>, Analine, Toluene |
 
 ## Some further thoughts
 Preprocesss plays a very important role here, commercial handheld spectromter is able to perform reasonable well using easy metrics such as dot
