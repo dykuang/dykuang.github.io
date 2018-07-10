@@ -8,7 +8,7 @@ tags:
   - Raman Spectra
 ---
 ## Some intro
-Recently I attended a workshop helping solve industrial problem hosted by the Fields Institute. One of the problems presented is developing 
+Recently I attended a [workshop](http://www.fields.utoronto.ca/activities/17-18/nrc-fields-ipsw) helping solve industrial problem hosted by the Fields Institute. One of the problems presented is developing 
 accurate/efficient methods for matching Raman spectra from test sample to samples recorded in the library so that different chemicals can be
 detected effectively. This is a quite chanllenging problem. Theoretically speaking, 
 though Raman spectroscopy is commonly used in chemistry to provide a structural fingerprint by which molecules can be identified, there 
