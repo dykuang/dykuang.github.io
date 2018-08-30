@@ -1,0 +1,13 @@
+---
+title: "A Landmark-based algorithm for automatic pattern recognition and abnormality detection."
+collection: publications
+permalink: /publication/2018-07
+date: 2018-07
+venue: 'Pattern Recognition'
+---
+
+This paper develops algorithms for constructing an ``average" shape and some downstream applications based on landmark representations.
+
+[Check the publication here](https://arxiv.org/abs/1602.05572)
+
+Recommended citation: *Snehalata Huzurbazar, Dongyang Kuang and Long Lee*. A Landmark-based algorithm for automatic pattern recognition and abnormality detection. <i>Pattern Recognition (Preprint)</i>
