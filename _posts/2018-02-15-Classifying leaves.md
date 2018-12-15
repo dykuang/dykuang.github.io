@@ -102,6 +102,8 @@ migrated with modifications for your own project. Though the process of "redisco
 
 * Should have a more systematic way for tuning many of the paramters and evaluating the model. It is better to write a script that logs changes so that you do not lose those good paramters tried.
 
+The details of this post can be found in [here](https://github.com/dykuang/dykuang.github.io/blob/master/Files/leaf.pdf)
+
 
 
 
