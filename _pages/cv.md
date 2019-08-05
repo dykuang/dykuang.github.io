@@ -9,7 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-I am currently a postdoc fellow in the Data Science and Machine Learning group of UOttawa's Math & Stats department. I have a broad interest in mathematical modelling and data analysis. My current duties includes utilizing theories from geometries and mechanics for feature extraction tasks and developing registration/learning tools for making inferences from medical images. I am relatively new to this field and am learning new things everyday in this promising field.
+I recently became a postdoc fellow in the Oden Institutue for Computational Engineering and Sciences @ Univeristy of Texas, Austin. 
+If you are interested, here is a longer version of my [CV](https://github.com/dykuang/dykuang.github.io/blob/master/Files/MyCV_ver2.0.pdf).
 
 Education
 ======
@@ -18,7 +19,7 @@ Education
 
 Work experience
 ======
-* Sep 2017 - Present: Postdoc Fellow
+* Sep 2017 - Jul 2019: Postdoc Fellow
   * [University of Ottawa](https://www.uottawa.ca/en)
   * Duties includes: Developing new models with machine learning/deep learning tools for medical image registration and other computer vision tasks. Check our [group website](http://mysite.science.uottawa.ca/dsml/) for more details.
 
@@ -30,7 +31,7 @@ Programming Skills
 ======
 * Most experienced: Matlab, Python (Keras/Tensorflow, scikit-learn)
 * Less experienced: C++, C, R, Mathematica.
-* Had experience: Sql
+* Least experience: Sql, Shell
 
 Publications
 ======
