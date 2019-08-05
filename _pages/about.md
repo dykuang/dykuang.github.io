@@ -13,7 +13,7 @@ Hello, welcome to my personal site. Though I am a little bit lazy, I will try to
 
 ### A little bit about Now
 
-<img align="float: left" img src='/images/UT.jpg' height="160" width="200">  First, a little bit about [myself](https://dykuang.github.io/cv/). I am currently a postdoc fellow @ [Oden Institute for Computational Engineering and Sciences](https://www.oden.utexas.edu/) under the supervision of [Dr. Craig Michoski](https://users.oden.utexas.edu/~michoski/Michoski.html). Great things are happening here everyday and I am super exicited to learn more things here.
+<img align="left" img src='/images/UT.jpg' height="160" width="200">  First, a little bit about [myself](https://dykuang.github.io/cv/). I am currently a postdoc fellow @ [Oden Institute for Computational Engineering and Sciences](https://www.oden.utexas.edu/) under the supervision of [Dr. Craig Michoski](https://users.oden.utexas.edu/~michoski/Michoski.html). Great things are happening here everyday and I am super exicited to learn more things here.
 
 <img align="left" img src='/images/ott.jpg' height="160" width="160"><img align="left" img src='/images/SUU.jpg' height="160" width="160">
   My previous Posdoc was in the [Data Science and Machine Learning group](http://mysite.science.uottawa.ca/dsml/) of [Math & Stats Department](https://science.uottawa.ca/mathstat/en) in Uottawa after a year as visting assistant professor in [Southern Utah University](https://www.suu.edu/). 
@@ -26,7 +26,7 @@ Hello, welcome to my personal site. Though I am a little bit lazy, I will try to
 
 <img align="left" img src='/images/ustc.jpg' height="160" width="160">  I earned my bachelor's degree in Mathematics from [University of Sci & Tech of China](http://en.ustc.edu.cn/), Heifei, Anhui, China. My thesis was about *integration methods in 2D*. It has been a priviledge of me to work on the topic with my advisor [Prof. Jiansong Deng](http://staff.ustc.edu.cn/~dengjs/). Folks in the university used to made jokes about the name USTC as *United States Teaching Center*, because many gradudates receives research assistantships/teaching assistantships in US after their graduations and ended up being professors there.
 
-<img align="left" img src='/images/UWsnow.jpg' height="120" width="180">I received my PhD degree in Applie Mathematics from [University of Wyoming](http://www.uwyo.edu/) working on the dissertation: *a particle method for Euler Poincar´e equation and its applications in analysis of landmark based image templates* under the supervision of [Prof. Long Lee](http://www.uwyo.edu/llee/). During the joint work with my advisor and [Prof. Roberto Camassa](https://math.unc.edu/staff/camassa-roberta/) when we were trying to apply our model framework on medical images, I grew interest in the topics of data sciences and machine learning/deep learning.
+<img align="left" img src='/images/UWsnow.jpg' height="160" width="240">I received my PhD degree in Applie Mathematics from [University of Wyoming](http://www.uwyo.edu/) working on the dissertation: *a particle method for Euler Poincar´e equation and its applications in analysis of landmark based image templates* under the supervision of [Prof. Long Lee](http://www.uwyo.edu/llee/). During the joint work with my advisor and [Prof. Roberto Camassa](https://math.unc.edu/staff/camassa-roberta/) when we were trying to apply our model framework on medical images, I grew interest in the topics of data sciences and machine learning/deep learning.
 
 Hope you have fun reading my posts!
 
