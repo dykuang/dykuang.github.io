@@ -25,5 +25,5 @@ I earned my bachelor's degree in Mathematics from [University of Sci & Tech of C
 
 I received my PhD degree in Applie Mathematics from [University of Wyoming](http://www.uwyo.edu/) working on the dissertation: *a particle method for Euler Poincar´e equation and its applications in analysis of landmark based image templates* under the supervision of [Prof. Long Lee](http://www.uwyo.edu/llee/). During the joint work with my advisor and [Prof. Roberto Camassa](https://math.unc.edu/staff/camassa-roberta/) when we were trying to apply our model framework on medical images, I grew interest in the topics of data sciences and machine learning/deep learning.
 
-Hope you can have fun reading my posts!
+Hope you have fun reading my posts!
 
