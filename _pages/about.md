@@ -12,7 +12,7 @@ Hello, welcome to my personal site. Though I am a little bit lazy, I will try to
 
 
 ### A little bit about Now
-First, a little bit about [myself](https://dykuang.github.io/cv/). I am currently a postdoc fellow @ Oden Institute for computational engineering and sciences under the supervision of [Dr. Craig Michoski](https://users.oden.utexas.edu/~michoski/Michoski.html). Great things are happening here everyday and I am super exicited to learn more things here.
+First, a little bit about [myself](https://dykuang.github.io/cv/). I am currently a postdoc fellow @ [Oden Institute for Computational Engineering and Sciences](https://www.oden.utexas.edu/) under the supervision of [Dr. Craig Michoski](https://users.oden.utexas.edu/~michoski/Michoski.html). Great things are happening here everyday and I am super exicited to learn more things here.
 
 My previous Posdoc was in the [Data Science and Machine Learning group](http://mysite.science.uottawa.ca/dsml/) of [Math & Stats Department](https://science.uottawa.ca/mathstat/en) in Uottawa after a year as visting assistant professor in [Southern Utah University](https://www.suu.edu/). 
 
