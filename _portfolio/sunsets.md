@@ -30,3 +30,13 @@ Sunset of Laramie
 Sunset of Cleveland
 ------
 <img src='/images/sunset-cleveland.jpg'>
+
+Sunset of Ottawa
+------
+<img src='/images/ott_sunset1.jpg'>
+<img src='/images/ott_sunset2.jpg'>
+<img src='/images/ott_sunset3.jpg'>
+
+Sunset of My Hometown
+------
+<img src='/images/jiyang.jpg'>
