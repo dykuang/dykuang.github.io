@@ -15,7 +15,7 @@ Hello, welcome to my personal site. Though I am a little bit lazy, I will try to
 
 <img align="left" img src='/images/UT.jpg' style="padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px" height="160" width="200">  First, a little bit about [myself](https://dykuang.github.io/cv/). I am currently a postdoc fellow @ [Oden Institute for Computational Engineering and Sciences](https://www.oden.utexas.edu/) under the supervision of [Dr. Craig Michoski](https://users.oden.utexas.edu/~michoski/Michoski.html). Great things are happening here everyday and I am super exicited to learn more things here.
 
-<img align="left" img src='/images/ott.jpg' height="160" width="160"><img align="left" img src='/images/SUU.jpg' style="padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px" height="160" width="160">
+<img align="left" img src='/images/ott.jpg' style="padding-top: 10px; padding-right: 5px; padding-bottom: 10px; padding-left: 10px"  height="160" width="160"><img align="left" img src='/images/SUU.jpg' style="padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 5px" height="160" width="160">
   My previous Posdoc was in the [Data Science and Machine Learning group](http://mysite.science.uottawa.ca/dsml/) of [Math & Stats Department](https://science.uottawa.ca/mathstat/en) in Uottawa after a year as visting assistant professor in [Southern Utah University](https://www.suu.edu/). 
  
 
