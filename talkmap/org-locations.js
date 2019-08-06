@@ -10,13 +10,18 @@ var addressPoints = [
     -79.9900861
   ],
   [
-    "Ottawa, Ontario, Canada",
-    45.421106,
-    -75.690308
+    "1920 Research Private, Ottawa, Ontario, Canada",
+    45.325311,
+    -75.6659056114435
   ],
   [
     "Laramie, WY",
     41.311367,
     -105.591101
+  ],
+  [
+    "Ottawa, Ontario, Canada",
+    45.421106,
+    -75.690308
   ]
 ];
