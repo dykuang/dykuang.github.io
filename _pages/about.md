@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello, welcome to my personal site. Though I am a little bit lazy, I will try to push myself updating posts once I found some interesting topics.
+Hello, welcome to my personal site. Though I am not an active blogger, I will try to push myself updating posts once I found some interesting topics.
 
 
 ### A little bit about Now
