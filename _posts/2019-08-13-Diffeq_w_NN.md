@@ -32,14 +32,15 @@ of $x$ is given, e.g. $\frac{dy}{dx}|_{x=1} = 4$. The number 4 is essentially wh
 you query the first order derivative of $y$ w.r.t $x$ and feed the value 1 to variable $x$. Now with useful tools as these, the solution 
 of differential equations can also be addressed as an optimization problem:
 
- $argmin_\limits_{\p} |||L \phi(p)|| + ||f(\phi; p)||$  
+ $||L \phi(p)|| + ||f(\phi; p)||$  
  
  where $\phi$ is represented by a neural network and $||\cdot||$ is some norm or 
  metric used to measure the error. Some commonly used ones are mean sqaured error (mse) or mean absolute error (mae).
  
  Now Let's play some toy examples: 1, a 1d ODE with one initial condition and 2, a 2D laplace equation with specified boundary conditions
  
- ### 1d example ###
+### 1d example ###
+ 
 $\frac{dx}{dt} = -x$ and $x(0) = 1$
 
 First, we need to think about what data to feed into the neural network. It is easy in this example, we can just feed grid points or randomly
@@ -57,5 +58,5 @@ $\frac{dx}{dt} + x$. Not too bad, and you can certainly improve it yourself. The
 <img src = '/images/1d-sol.png' height="360" width="260">
 <img src = '/images/1d-eqn-err.png' height="360" width="260">
 
-### 2d exmaple ###
+### 2d example ###
 Under construction ...
