@@ -32,12 +32,12 @@ of $x$ is given, e.g. $\frac{dy}{dx}|_{x=1} = 4$. The number 4 is essentially wh
 you query the first order derivative of $y$ w.r.t $x$ and feed the value 1 to variable $x$. Now with useful tools as these, the solution 
 of differential equations can also be addressed as an optimization problem:
 
- $ ||L \phi(p)|| + ||f(\phi; p)|| $  
+ $L \phi(p) + f(\phi; p) $  
  
  where $\phi$ is represented by a neural network and $||\cdot||$ is some norm or 
  metric used to measure the error. Some commonly used ones are mean sqaured error (mse) or mean absolute error (mae).
  
- Now Let's play some toy examples: 1, a 1d ODE with one initial condition and 2, a 2D laplace equation with specified boundary conditions
+ Now Let's play some toy examples.
  
 ### 1d example ###
  
@@ -52,7 +52,7 @@ human genius. In this toy example, the template is easy, one can set the form of
 
 Once the network is built (here a simple MLP with only one hidden layer is used for $\phi$) and training data obtained, we can train 
 it to see how it performs. In this toy example, the training should be done with <1s on your laptop. The flowing picutures show the prediction from the network (left) and the error term of equation, i.e. the value of 
-$\frac{dx}{dt} + x$. Not too bad, and you can certainly improve it yourself. The code for it can be found [here](https://github.com/dykuang/dykuang.github.io/blob/master/Files/try2.py)
+$\frac{dx}{dt} + x$. Not too bad, and you can certainly improve it yourself. The code for it can be found [here](https://github.com/dykuang/dykuang.github.io/blob/master/Files/try2.py).
 
 <img src = '/images/1d-sol.png' height="360" width="260">
 <img src = '/images/1d-eqn-err.png' height="360" width="260">
