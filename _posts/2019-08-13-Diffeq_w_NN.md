@@ -30,12 +30,8 @@ differentials of given variables quite easily once the computatio graph is corre
 For example, if $y = 2x^2$, with some easy calculus knowledge you know $\frac{dy}{dx} = 4x$. You will then know every exact value of this derivative when the actual value
 of $x$ is given, e.g. $\frac{dy}{dx}|_{x=1} = 4$. The number 4 is essentially what you can get from these computation frameworks if 
 you query the first order derivative of $y$ w.r.t $x$ and feed the value 1 to variable $x$. Now with useful tools as these, the solution 
-of differential equations can also be addressed as an optimization problem:
-
- $L \phi(p) + f(\phi; p) $  
- 
- where $\phi$ is represented by a neural network and $||\cdot||$ is some norm or 
- metric used to measure the error. Some commonly used ones are mean sqaured error (mse) or mean absolute error (mae).
+of differential equations can also be addressed as an optimization problem:  $argmin ||L \phi(p)|| + ||f(\phi; p)||$  
+ where $\phi$ is represented by a neural network and $||\cdot||$ is some norm or metric used to measure the error. Some commonly used ones are mean sqaured error (mse) or mean absolute error (mae).
  
  Now Let's play some toy examples.
  
