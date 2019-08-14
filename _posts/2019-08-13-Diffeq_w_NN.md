@@ -32,7 +32,7 @@ of $x$ is given, e.g. $\frac{dy}{dx}|_{x=1} = 4$. The number 4 is essentially wh
 you query the first order derivative of $y$ w.r.t $x$ and feed the value 1 to variable $x$. Now with useful tools as these, the solution 
 of differential equations can also be addressed as an optimization problem:
 
- $||L \phi(p)|| + ||f(\phi; p)||$  
+ $ ||L \phi(p)|| + ||f(\phi; p)|| $  
  
  where $\phi$ is represented by a neural network and $||\cdot||$ is some norm or 
  metric used to measure the error. Some commonly used ones are mean sqaured error (mse) or mean absolute error (mae).
@@ -43,11 +43,10 @@ of differential equations can also be addressed as an optimization problem:
  
 $\frac{dx}{dt} = -x$ and $x(0) = 1$
 
-First, we need to think about what data to feed into the neural network. It is easy in this example, we can just feed grid points or randomly
-selected points (x, t): (1, 0), (1, 0.2), (1, 0.4), (1, 0.6), ...
+First, we need to think about what data to feed into the neural network. It is easy in this example, we can just feed grid points or randomly selected points (x, t): (1, 0), (1, 0.2), (1, 0.4), (1, 0.6), ...
 Second, we should consider what needs to be done to enforce the initial/boundary conditions. There are at least two ways:
 * Feed points at the boundary consistently to the network during training. This method is simple, but the points needed 
-grows exponential with the growth of dimension and the training may not be stable if these points are not properly selected. 
+grows exponentially with the growth of dimension and the training may not be stable if these points are not properly selected. 
 * Construct a solution template so that initial/boundary conditions are automatically satified. This method requires some
 human genius. In this toy example, the template is easy, one can set the form of solution: $x = x_0 + t\phi$. 
 
