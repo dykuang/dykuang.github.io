@@ -30,8 +30,9 @@ differentials of given variables quite easily once the computatio graph is corre
 For example, if $y = 2x^2$, with some easy calculus knowledge you know $\frac{dy}{dx} = 4x$. You will then know every exact value of this derivative when the actual value
 of $x$ is given, e.g. $\frac{dy}{dx}|_{x=1} = 4$. The number 4 is essentially what you can get from these computation frameworks if 
 you query the first order derivative of $y$ w.r.t $x$ and feed the value 1 to variable $x$. Now with useful tools as these, the solution 
-of differential equations can also be addressed as an optimization problem:  $argmin\limits_{p} ||L \phi(p)|| + ||f(\phi; p)||$  
- where $\phi$ is represented by a neural network and $||\cdot||$ is some norm or metric used to measure the error. Some commonly used ones are mean sqaured error (mse) or mean absolute error (mae).
+of differential equations can also be addressed as an optimization problem: the network $\phi$ should learn parameters $p$ so that
+the object function $||L \phi(p)|| + ||f(\phi; p)||$ is minimized. 
+$||\cdot||$ is some norm or metric used to measure the error. Some commonly used ones are mean sqaured error (MSE) or mean absolute error (MAE). One could also use a weighed sum to balance the equation loss $||L \phi(p)||$ and the boundary condition loss $ ||f(\phi; p)||$.
  
  Now Let's play some toy examples.
  
@@ -44,7 +45,8 @@ Second, we should consider what needs to be done to enforce the initial/boundary
 * Feed points at the boundary consistently to the network during training. This method is simple, but the points needed 
 grows exponentially with the growth of dimension and the training may not be stable if these points are not properly selected. 
 * Construct a solution template so that initial/boundary conditions are automatically satified. This method requires some
-human genius. In this toy example, the template is easy, one can set the form of solution: $x = x_0 + t\phi$. 
+human genius. In this toy example, the template is easy, one can set the form of solution: $x = x_0 + t\phi$. In this case, only
+the equation loss will remain in the object function for optimization.
 
 Once the network is built (here a simple MLP with only one hidden layer is used for $\phi$) and training data obtained, we can train 
 it to see how it performs. In this toy example, the training should be done with <1s on your laptop. The flowing picutures show the prediction from the network (left) and the error term of equation, i.e. the value of 
