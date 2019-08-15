@@ -10,7 +10,7 @@ tags:
 ---
 
 Differential equations and neural networks are naturally bonded. The best paper ["Neural Ordinary Differential Equations"](https://arxiv.org/abs/1806.07366) 
-in NeuRIPs 2018 caused a lot of attentions by utilizing ODE mechanisms when updating layer weights. On the other direction, there are also many research using neural
+in NeurIPS 2018 caused a lot of attentions by utilizing ODE mechanisms when updating layer weights. On the other direction, there are also many research using neural
 network approaches to help investigate differential equations such as ["Deep learning for universal linear embeddings of nonlinear dynamics"](https://www.nature.com/articles/s41467-018-07210-0), 
 ["DGM: A deep learning algorithm for solving partial differential equations"](https://arxiv.org/pdf/1708.07469.pdf) or 
 ["Solving Irregular and Data-enriched Differential Equations using Deep Neural Networks"](https://arxiv.org/abs/1905.04351). In this post, 
@@ -68,7 +68,7 @@ on unit square $[0, 1] \times [0, 1]$. The solution template here will be a litt
 
 $u = y\sin(\pi x) + x(x-1)y(y-1)\phi$. 
 
-Again, you can use grid points or randomly selected points (x, y) in the unit square as training data. The training time may be a little longer depending on your training data size. The following example only uses about 100 grid points, 2000 epochs and the training completed within seconds. (check [here](https://github.com/dykuang/dykuang.github.io/blob/master/Files/try2.py) for the code). Predicted solution is shown on the left, the equation loss is plotted on the right. The performance can be improved with more training data or deeper network.
+Again, you can use grid points or randomly selected points (x, y) in the unit square as training data. The training time may be a little longer depending on your training data size. The following example only uses about 100 grid points, 2000 epochs and the training completed within seconds. (check [here](https://github.com/dykuang/dykuang.github.io/blob/master/Files/try3.py) for the code). Predicted solution is shown on the left, the equation loss is plotted on the right. The performance can be improved with more training data or deeper network.
 
 <img src = '/images/2d-sol.png' height="360" width="260">
 <img src = '/images/2d-eqn-error.png' height="360" width="260">
