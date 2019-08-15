@@ -56,7 +56,19 @@ $\frac{dx}{dt} + x$. Not too bad, and you can certainly improve it yourself. The
 <img src = '/images/1d-eqn-err.png' height="360" width="260">
 
 ### 2d example ###
-Now let's work on the Laplace equation $\Delta u = 0, u = u(x, y)$ with boundary conditions $u(1,y) = u(0, y) = u(x, 0) =0$ and $u(x,1) = \sin (\pi x)$ on unit square $[0, 1] \times [0, 1]$. The solution template here will be a little more complicated as $u = y\sin(\pi x) + x(x-1)y(y-1)\phi$. Again, you can use grid points or randomly selected points (x, y) in the unit square as training data. The training time may be a little longer depending on your training data size. The following example only uses about 100 grid points, 2000 epochs and the training completed within seconds. (check [here](https://github.com/dykuang/dykuang.github.io/blob/master/Files/try2.py) for the code). Predicted solution is shown on the left, the equation loss is plotted on the right. The performance can be improved with more training data or deeper network.
+Now let's work on the Laplace equation 
+
+$\Delta u = 0, u = u(x, y)$ 
+
+with boundary conditions 
+
+$u(1,y) = u(0, y) = u(x, 0) =0$ and $u(x,1) = \sin (\pi x)$ 
+
+on unit square $[0, 1] \times [0, 1]$. The solution template here will be a little more complicated as 
+
+$u = y\sin(\pi x) + x(x-1)y(y-1)\phi$. 
+
+Again, you can use grid points or randomly selected points (x, y) in the unit square as training data. The training time may be a little longer depending on your training data size. The following example only uses about 100 grid points, 2000 epochs and the training completed within seconds. (check [here](https://github.com/dykuang/dykuang.github.io/blob/master/Files/try2.py) for the code). Predicted solution is shown on the left, the equation loss is plotted on the right. The performance can be improved with more training data or deeper network.
 
 <img src = '/images/2d-sol.png' height="360" width="260">
 <img src = '/images/2d-eqn-error.png' height="360" width="260">
