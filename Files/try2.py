@@ -21,8 +21,8 @@ import keras.backend as K
 ## set parameters
 params = {
         'dim': 1,
-        'batchsize': 8,
-        'epochs': 10}
+        'batchsize': 25,
+        'epochs': 1000}
 
 
 
@@ -132,7 +132,7 @@ def make_grid(x_ini = 1., tspan = np.linspace(0, 6, 100)):
 grid = make_grid()
 Ze = [np.zeros((grid[0].shape[0], 1)), np.zeros((grid[0].shape[0],1))]
     
-hist = Mymodel.fit(grid, Ze, batch_size=25, epochs=1000, verbose=0)
+hist = Mymodel.fit(grid, Ze, batch_size=params['batch size'], epochs=params['epochs'], verbose=0)
 
 ## Train with batches
 def Get_batch(batchsize):
