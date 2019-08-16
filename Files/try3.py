@@ -6,7 +6,6 @@ Created on Sat Aug 10 18:41:57 2019
 
 A test for solving Laplace equation with NN
 
-Q: It takes a lot of memories and slow .... why?
 """
 
 
@@ -26,7 +25,7 @@ params = {
         'input dim': 2,
         'output dim': 1,
         'batchsize': 8,
-        'epochs': 10}
+        'epochs': 1000}
 
 
 ## Model preparation
@@ -175,7 +174,7 @@ Grid = make_grid()
 #                             verbose=1, callbacks=None, shuffle=True)
 
 Ze = np.zeros((len(Grid),1))
-hist = Mymodel.fit(x=[Grid[:,0], Grid[:,1]], y = [Ze, Ze], batch_size=25, epochs=1000, verbose=0)
+hist = Mymodel.fit(x=[Grid[:,0], Grid[:,1]], y = [Ze, Ze], batch_size=params['batchsize'], epochs=params['epochs'], verbose=0)
 
 
 ## Custom training with train_on_batch  (slow + large memory, do not know why?)
