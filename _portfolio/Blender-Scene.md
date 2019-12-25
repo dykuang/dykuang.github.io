@@ -1,6 +1,6 @@
 ---
 title: "A Donut Scene"
-excerpt: "A collection of scenes I made with Blender. Please feel free to view more by clicking the title.<br/><img src='/images/donut-scene.png'>"
+excerpt: "A collection of scenes I made with Blender. Please feel free to view more by clicking the title.<br/><img src='/images/cake.png'>"
 collection: portfolio
 ---
 
