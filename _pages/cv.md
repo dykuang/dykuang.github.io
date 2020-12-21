@@ -9,8 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-I recently became a postdoc fellow in the [Oden Institutue for Computational Engineering and Sciences](https://www.oden.utexas.edu/) @ Univeristy of Texas, Austin. 
-If you are interested, feel free to check a longer version of my <span style="color:blue"> [CV](https://github.com/dykuang/dykuang.github.io/blob/master/Files/MyCV_ver2.0.pdf) </span>.
+I am currently a postdoc fellow in the [Oden Institutue for Computational Engineering and Sciences](https://www.oden.utexas.edu/) @ Univeristy of Texas, Austin. 
+If you are interested, feel free to check a longer version of my <span style="color:blue"> [CV](https://github.com/dykuang/dykuang.github.io/blob/master/Files/MyCV_ver2.0.pdf) ([CV in Chinese](https://github.com/dykuang/dykuang.github.io/blob/master/Files/CV_Chinese.pdf))</span>.
 
 Education
 ======
@@ -19,6 +19,10 @@ Education
 
 Work experience
 ======
+* Sep 2017 - Jul 2019: Postdoc Fellow
+  * [University of Texas at Austin](https://www.utexas.edu/)
+  * Database development, data mining, machine/deep learning, uncertainty quantification for magnetically confined fusion.
+
 * Sep 2017 - Jul 2019: Postdoc Fellow
   * [University of Ottawa](https://www.uottawa.ca/en)
   * Duties includes: Developing new models with machine learning/deep learning tools for medical image registration and other computer vision tasks. Check our [group website](http://mysite.science.uottawa.ca/dsml/) for more details.
