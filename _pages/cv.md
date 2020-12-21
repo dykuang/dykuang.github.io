@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 I am currently a postdoc fellow in the [Oden Institutue for Computational Engineering and Sciences](https://www.oden.utexas.edu/) @ Univeristy of Texas, Austin. 
-If you are interested, feel free to check a longer version of my <span style="color:blue"> [CV](https://github.com/dykuang/dykuang.github.io/blob/master/Files/MyCV_ver2.0.pdf) ([CV in Chinese](https://github.com/dykuang/dykuang.github.io/blob/master/Files/CV_Chinese.pdf))</span>.
+If you are interested, feel free to check a longer version of my <span style="color:blue"> [CV](https://github.com/dykuang/dykuang.github.io/blob/master/Files/MyCV_ver2.0.pdf) </span>. or <span style="color:red"> [CV in Chinese](https://github.com/dykuang/dykuang.github.io/blob/master/Files/CV_Chinese.pdf) </span>.
 
 Education
 ======
