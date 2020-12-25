@@ -10,5 +10,6 @@ Some images made with this [repo](https://github.com/dykuang/RealTime-Neural-Sty
 <img src = '/images/tt2.jpg' height="320" width="240"><img src = '/images/tt3.jpg' height="320" width="240">
 <img src = '/images/tt4.jpg' height="320" width="240">
 
-
-<video src="/images/v2.mp4" width="320" height="480" controls preload></video>
+<video src="/images/v1.mp4"controls preload></video>
+<video src="/images/v2.mp4"controls preload></video>
+<video src="/images/v3.mp4"controls preload></video>
