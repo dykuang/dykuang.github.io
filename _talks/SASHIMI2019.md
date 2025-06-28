@@ -9,5 +9,5 @@ location: "ShenZhen, CHINA"
 ---
 
 This talk is about Deep Learning based Medical Image Registration with cycle-consistent loss.  
-Paper: [Cycle-Consistent Training for Reducing Negative Jacobian Determinant in Deep Registration Networks](https://link.springer.com/chapter/10.1007/978-3-030-32778-1_13)
-Code: [Here](https://github.com/dykuang/Medical-image-registration)
+ **Paper:** [📄Cycle-Consistent Training for Reducing Negative Jacobian Determinant in Deep Registration Networks](https://link.springer.com/chapter/10.1007/978-3-030-32778-1_13)
+**Code:** [<span style="color:#0366d6;font-weight:bold;">GitHub Repository</span>](https://github.com/dykuang/Medical-image-registration)

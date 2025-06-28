@@ -70,7 +70,7 @@ Feel free to check my other miscellaneous projects on my [GitHub](https://github
       <img src="/images/jiyang.jpg" alt="Jiyang" height="80" style="margin: 8px 12px 8px 0;">
     </td>
     <td>
-      I was born in a small town called <em>Jiyang</em> in Fujian Province, China ([wiki](https://en.wikipedia.org/wiki/Jian%27ou)). My name comes from the first characters of my parents' first job locations. No matter how hard reality is, you can always decorate it with your dreams!
+      I was born in a small town called <em>Jiyang</em> ( <a href="https://en.wikipedia.org/wiki/Jian%27ou"> Click for details</a> ) in Fujian Province, China. My name comes from the first characters of my parents' first job locations. No matter how hard reality is, you can always decorate it with your dreams!
     </td>
   </tr>
   <tr>

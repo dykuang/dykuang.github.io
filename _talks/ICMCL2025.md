@@ -8,4 +8,7 @@ date: 2022-09-26
 location: "Guangzhou, CHINA"
 ---
 
-This talk is about proposing several points for improving qualitative analysis on deep learning based EEG emotion classification with noisy labels. [Video](https://www.bilibili.com/video/BV1gsKxz9Eir/)
+This talk is about proposing several points for improving qualitative analysis on deep learning based EEG emotion classification with noisy labels.
+
+**[▶️ Watch the Video](https://www.bilibili.com/video/BV1gsKxz9Eir/)**  
+- Click the link above to watch the presentation.

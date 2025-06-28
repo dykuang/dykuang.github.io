@@ -9,5 +9,5 @@ location: "Singapore, SINGAPORE"
 ---
 
 This talk is about EEG-based emotion classification using a monotonicity constrained attention module. The method is designed to work with limited EEG data, which is often a challenge in emotion recognition tasks.  
-Paper: [A Monotonicity Constrained Attention Module for Emotion Classification with Limited EEG Data](https://link.springer.com/chapter/10.1007/978-3-031-16760-7_21)  
-Code: [Here](https://github.com/dykuang/BCI-Attention)
+ **Paper:** [📄A Monotonicity Constrained Attention Module for Emotion Classification with Limited EEG Data](https://link.springer.com/chapter/10.1007/978-3-031-16760-7_21)  
+**Code:** [<span style="color:#0366d6;font-weight:bold;">GitHub Repository</span>](https://github.com/dykuang/BCI-Attention)
