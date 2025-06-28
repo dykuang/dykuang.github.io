@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b3a757dbfd6de7a67a6e680295dd281a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b3a757dbfd6de7a67a6e680295dd281a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b3a757dbfd6de7a67a6e680295dd281a = L.map(
+                "map_b3a757dbfd6de7a67a6e680295dd281a",
+                {
+                    center: [35.0, 105.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fe554e8c89b041d480bc0097bccdf038 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_fe554e8c89b041d480bc0097bccdf038.addTo(map_b3a757dbfd6de7a67a6e680295dd281a);
+        
+    
+            var marker_1803a38d542089c69639cd1eed1145e3 = L.marker(
+                [41.31137, -105.5911],
+                {}
+            ).addTo(map_b3a757dbfd6de7a67a6e680295dd281a);
+        
+    
+        var popup_c5fb1437058a1fb7e6577cef7b06f110 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba7d5a5a021b1d6f6d10bb4462bcbe37 = $(`<div id="html_ba7d5a5a021b1d6f6d10bb4462bcbe37" style="width: 100.0%; height: 100.0%;">RMMC2016 (Laramie, USA)</div>`)[0];
+                popup_c5fb1437058a1fb7e6577cef7b06f110.setContent(html_ba7d5a5a021b1d6f6d10bb4462bcbe37);
+            
+        
+
+        marker_1803a38d542089c69639cd1eed1145e3.bindPopup(popup_c5fb1437058a1fb7e6577cef7b06f110)
+        ;
+
+        
+    
+    
+            marker_1803a38d542089c69639cd1eed1145e3.bindTooltip(
+                `<div>
+                     RMMC2016
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2db4e3938f94c78b247400ef1ba6b4e5 = L.marker(
+                [51.180202, -115.565704],
+                {}
+            ).addTo(map_b3a757dbfd6de7a67a6e680295dd281a);
+        
+    
+        var popup_a74d057fe2507ce48afb555ae5ed71f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41e622b44f80abb19b10fd06750adcfb = $(`<div id="html_41e622b44f80abb19b10fd06750adcfb" style="width: 100.0%; height: 100.0%;">Banff (Banff, Canada)</div>`)[0];
+                popup_a74d057fe2507ce48afb555ae5ed71f6.setContent(html_41e622b44f80abb19b10fd06750adcfb);
+            
+        
+
+        marker_2db4e3938f94c78b247400ef1ba6b4e5.bindPopup(popup_a74d057fe2507ce48afb555ae5ed71f6)
+        ;
+
+        
+    
+    
+            marker_2db4e3938f94c78b247400ef1ba6b4e5.bindTooltip(
+                `<div>
+                     Banff
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f3ebf1dc8842400c5288e0bbeae044fe = L.marker(
+                [41.68206, -69.95974],
+                {}
+            ).addTo(map_b3a757dbfd6de7a67a6e680295dd281a);
+        
+    
+        var popup_393531f2fccb21d6828a415226d0d809 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25ec7d70872ac731e571389aebc35acd = $(`<div id="html_25ec7d70872ac731e571389aebc35acd" style="width: 100.0%; height: 100.0%;">Chatham (Chatham, USA)</div>`)[0];
+                popup_393531f2fccb21d6828a415226d0d809.setContent(html_25ec7d70872ac731e571389aebc35acd);
+            
+        
+
+        marker_f3ebf1dc8842400c5288e0bbeae044fe.bindPopup(popup_393531f2fccb21d6828a415226d0d809)
+        ;
+
+        
+    
+    
+            marker_f3ebf1dc8842400c5288e0bbeae044fe.bindTooltip(
+                `<div>
+                     Chatham
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73d39e4004cafbd87d648d6ca32bb10f = L.marker(
+                [45.41117, -75.69812],
+                {}
+            ).addTo(map_b3a757dbfd6de7a67a6e680295dd281a);
+        
+    
+        var popup_341d645c6fa7cf33ef42a8c3c12a7ba4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f23582fa28a4916a13fa497b491b2068 = $(`<div id="html_f23582fa28a4916a13fa497b491b2068" style="width: 100.0%; height: 100.0%;">Uottawa (Ottawa, Canada)<br>NRC (Ottawa, Canada)</div>`)[0];
+                popup_341d645c6fa7cf33ef42a8c3c12a7ba4.setContent(html_f23582fa28a4916a13fa497b491b2068);
+            
+        
+
+        marker_73d39e4004cafbd87d648d6ca32bb10f.bindPopup(popup_341d645c6fa7cf33ef42a8c3c12a7ba4)
+        ;
+
+        
+    
+    
+            marker_73d39e4004cafbd87d648d6ca32bb10f.bindTooltip(
+                `<div>
+                     2 talk(s)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0f8495963ed3190cd84c3867d297aef9 = L.marker(
+                [22.5565, 113.9859],
+                {}
+            ).addTo(map_b3a757dbfd6de7a67a6e680295dd281a);
+        
+    
+        var popup_1db29301ba9ae3807e7dd9ee7db1c502 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d74bab66d43b6572b48a689aeac6c3be = $(`<div id="html_d74bab66d43b6572b48a689aeac6c3be" style="width: 100.0%; height: 100.0%;">SASHIMI2019 (深圳, 中国)<br>MLMI2019 (深圳, 中国)</div>`)[0];
+                popup_1db29301ba9ae3807e7dd9ee7db1c502.setContent(html_d74bab66d43b6572b48a689aeac6c3be);
+            
+        
+
+        marker_0f8495963ed3190cd84c3867d297aef9.bindPopup(popup_1db29301ba9ae3807e7dd9ee7db1c502)
+        ;
+
+        
+    
+    
+            marker_0f8495963ed3190cd84c3867d297aef9.bindTooltip(
+                `<div>
+                     2 talk(s)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3109cdc7af7952a126eb6ca88235dddd = L.marker(
+                [1.352083, 103.819836],
+                {}
+            ).addTo(map_b3a757dbfd6de7a67a6e680295dd281a);
+        
+    
+        var popup_7973fb343f52f6740eb4ac222c4752a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0191b8c5d7daae39d536c322ae5b52f8 = $(`<div id="html_0191b8c5d7daae39d536c322ae5b52f8" style="width: 100.0%; height: 100.0%;">MILLanD2022 (Singapore, Singapore)<br>iMIMIC2022 (Singapore, Singapore)</div>`)[0];
+                popup_7973fb343f52f6740eb4ac222c4752a8.setContent(html_0191b8c5d7daae39d536c322ae5b52f8);
+            
+        
+
+        marker_3109cdc7af7952a126eb6ca88235dddd.bindPopup(popup_7973fb343f52f6740eb4ac222c4752a8)
+        ;
+
+        
+    
+    
+            marker_3109cdc7af7952a126eb6ca88235dddd.bindTooltip(
+                `<div>
+                     2 talk(s)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_90396047d50f841b46e1ee66df08aa5a = L.marker(
+                [23.1167, 113.25],
+                {}
+            ).addTo(map_b3a757dbfd6de7a67a6e680295dd281a);
+        
+    
+        var popup_3083efc6caac8462aacd185a961d792d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c115f68d4e2c0bdb83d39ca33a74b9b = $(`<div id="html_0c115f68d4e2c0bdb83d39ca33a74b9b" style="width: 100.0%; height: 100.0%;">ICMCL2025 (广州, 中国)</div>`)[0];
+                popup_3083efc6caac8462aacd185a961d792d.setContent(html_0c115f68d4e2c0bdb83d39ca33a74b9b);
+            
+        
+
+        marker_90396047d50f841b46e1ee66df08aa5a.bindPopup(popup_3083efc6caac8462aacd185a961d792d)
+        ;
+
+        
+    
+    
+            marker_90396047d50f841b46e1ee66df08aa5a.bindTooltip(
+                `<div>
+                     ICMCL2025
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
