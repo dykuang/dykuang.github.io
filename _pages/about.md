@@ -10,7 +10,7 @@ redirect_from:
 
 Hello, welcome to my personal site. Though I am not an active blogger, I will try to push myself updating posts once I found some interesting topics. 
 
-I am currently an Associate Professor in the [Department of Mathematics, Zhuhai](https://mathzh.sysu.edu.cn/) at Sun Yat-sen University. My research interests include numerical methods, scientific computing, data science, machine learning, and deep learning.
+I am currently an Associate Professor in the [Department of Mathematics, Zhuhai](https://mathzh.sysu.edu.cn/) at Sun Yat-sen University. 
 
 **Main Research Interests**: Data analysis in interdisciplinary fields, mathematical modeling, development, research, and application of data-driven learning algorithms and their interpretability. Specifically, including but not limited to:
 
