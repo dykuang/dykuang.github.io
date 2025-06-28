@@ -9,8 +9,8 @@
 locale                   : "en-US"
 title                    : "Dongyang Kuang"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Postdoc @ Oden Institute"
+name                     : &name "Dongyang Kuang"
+description              : &description "Assoc. Prof. @ SYSU"
 url                      : https://dykuang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "dykuang/dykuang.github.io"
@@ -80,8 +80,8 @@ analytics:
 author:
   name             : "Dongyang Kuang"
   avatar           : "avatar.jpg"
-  bio              : "Postdoc @ Oden Institute，UT-Austin"
-  location         : "Austin"
+  bio              : "Assoc. Prof. @ SYSU "
+  location         : "Zhuhai, Guangdong, China"
   employer         :
   googlescholar    : "https://scholar.google.ca/citations?user=CdlcSHQAAAAJ&hl=en"
   email            :
@@ -92,7 +92,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "dykuang"
+  github           : "https://github.com/dykuang"
   google_plus      :
   keybase          :
   instagram        :

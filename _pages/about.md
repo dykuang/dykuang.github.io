@@ -8,12 +8,28 @@ redirect_from:
   - /about.html
 ---
 
-Hello, welcome to my personal site. Though I am not an active blogger, I will try to push myself updating posts once I found some interesting topics.
+Hello, welcome to my personal site. Though I am not an active blogger, I will try to push myself updating posts once I found some interesting topics. 
+
+I am currently an Associate Professor in the [Department of Mathematics, Zhuhai](https://mathzh.sysu.edu.cn/) at Sun Yat-sen University. My research interests include numerical methods, scientific computing, data science, machine learning, and deep learning.
+
+**Main Research Interests**: Data analysis in interdisciplinary fields, mathematical modeling, development, research, and application of data-driven learning algorithms and their interpretability. Specifically, including but not limited to:
+
+- <span style="background-color: rgba(128, 0, 128, 0.5);">Robust Learning for Interpretable Models</span>: Affective computing based on EEG data with noisy labels  
+  *Example projects: [1](https://github.com/dykuang/BCI-Attention), [2](https://github.com/dykuang/EEG-based-affective-computing), [3](https://github.com/dykuang/SEER), [4](https://github.com/dykuang/EEG-classification)*
+- <span style="background-color: yellow;">AI4X</span>: Deep learning algorithms driven by both data and traditional theoretical knowledge in interdisciplinary fields
+  - <span style="background-color: orange;">AI4Health</span>: Artificial intelligence applications based on medical data  
+    *Example projects: [1](https://github.com/dykuang/Medical-image-registration), [2](https://github.com/dykuang/Unsupervised-brain-leision-segmentation)*
+  - <span style="background-color: cyan;">AI4Science</span>: Artificial intelligence applications based on scientific data  
+    *Example projects: [1](https://github.com/dykuang/DL4EOS), [2](https://github.com/dykuang/Pyro-thermal-kinetic)*
+  - <span style="background-color: lightgreen;">AI4Math</span>: Artificial intelligence applications serving mathematics  
+    *Example projects: [1](https://github.com/dykuang/Deep----Koopman)*
+ 
+Feel free to check my other Misc. Projects on my [Github](https://github.com/dykuang) or shoot me an email if you have any questions or want to collaborate.
 
 
-### A little bit about Now
+### A little bit about My postdoc
 
-<img align="left" img src='/images/UT.jpg' style="padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px" height="160" width="200">  First, a little bit about [myself](https://dykuang.github.io/cv/). I am currently a postdoc fellow @ [Oden Institute for Computational Engineering and Sciences](https://www.oden.utexas.edu/) under the supervision of [Dr. Craig Michoski](https://users.oden.utexas.edu/~michoski/Michoski.html). Great things are happening here everyday and I am super excited to learn more things here.
+<img align="left" img src='/images/UT.jpg' style="padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px" height="160" width="200">  My most recent postdoc is @ [Oden Institute for Computational Engineering and Sciences](https://www.oden.utexas.edu/) under the supervision of [Dr. Craig Michoski](https://users.oden.utexas.edu/~michoski/Michoski.html). Some of my work there includes developing data-driven/deep learning algorithms for many interesting interdisciplinary applications. A portion of my work is further developed by my colleagues in [Sophelio](https://sophelio.io/)
 
 <img align="left" img src='/images/ott.jpg' style="padding-top: 10px; padding-right: 5px; padding-bottom: 10px; padding-left: 10px"  height="160" width="160"><img align="left" img src='/images/SUU.jpg' style="padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 5px" height="160" width="160">
   My previous Posdoc was in the [Data Science and Machine Learning group](http://mysite.science.uottawa.ca/dsml/) of [Math & Stats Department](https://science.uottawa.ca/mathstat/en) in Uottawa after a year as visting assistant professor in [Southern Utah University](https://www.suu.edu/). 
