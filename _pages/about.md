@@ -29,7 +29,7 @@ Feel free to check my other Misc. Projects on my [Github](https://github.com/dyk
 
 ### A little bit about My postdoc
 
-<img align="left" img src='/images/UT.jpg' style="padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px" height="160" width="200">  My most recent postdoc is @ [Oden Institute for Computational Engineering and Sciences](https://www.oden.utexas.edu/) under the supervision of [Dr. Craig Michoski](https://users.oden.utexas.edu/~michoski/Michoski.html). Some of my work there includes developing data-driven/deep learning algorithms for many interesting interdisciplinary applications. A portion of my work is further developed by my colleagues in [Sophelio](https://sophelio.io/)
+<img align="left" img src='/images/UT.jpg' style="padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px" height="160" width="200">  My most recent postdoc is @ [Oden Institute for Computational Engineering and Sciences](https://www.oden.utexas.edu/) under the supervision of [Dr. Craig Michoski](https://users.oden.utexas.edu/~michoski/Michoski.html). Some of my work there includes developing data-driven/deep learning algorithms for many interesting interdisciplinary applications. A portion of my work is further developed by my colleagues and later formed the solutions/services provided by [Sophelio](https://sophelio.io/)
 
 <img align="left" img src='/images/ott.jpg' style="padding-top: 10px; padding-right: 5px; padding-bottom: 10px; padding-left: 10px"  height="160" width="160"><img align="left" img src='/images/SUU.jpg' style="padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 5px" height="160" width="160">
   My previous Posdoc was in the [Data Science and Machine Learning group](http://mysite.science.uottawa.ca/dsml/) of [Math & Stats Department](https://science.uottawa.ca/mathstat/en) in Uottawa after a year as visting assistant professor in [Southern Utah University](https://www.suu.edu/). 
@@ -44,5 +44,5 @@ Feel free to check my other Misc. Projects on my [Github](https://github.com/dyk
 
 <img align="left" img src='/images/UWsnow.jpg' style="padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px" height="160" width="240">I received my PhD degree in Applied Mathematics from [University of Wyoming](http://www.uwyo.edu/) working on the dissertation: *a particle method for Euler Poincar´e equation and its applications in analysis of landmark based image templates* under the supervision of [Prof. Long Lee](http://www.uwyo.edu/llee/). During the joint work with my advisor and [Prof. Roberto Camassa](https://math.unc.edu/staff/camassa-roberta/) when we were trying to apply our model framework on medical images, I grew interest in the topics of data sciences and machine learning/deep learning which led me to my first postdoc in Uottawa.
 
-Hope you have fun reading my posts!
+Hope you have fun browsing around! 
 
