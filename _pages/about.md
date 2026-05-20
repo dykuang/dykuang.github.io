@@ -216,10 +216,7 @@ redirect_from:
   }
 
   .about-story {
-    display: grid;
-    grid-template-columns: minmax(120px, 180px) minmax(0, 1fr);
-    gap: 1.1rem;
-    align-items: center;
+    display: flow-root;
     padding: clamp(0.9rem, 1.5vw, 1rem);
   }
 
@@ -227,11 +224,15 @@ redirect_from:
   .about-story-media--split {
     display: grid;
     gap: 0.6rem;
+    float: left;
+    width: clamp(9.5rem, 24%, 12rem);
+    margin: 0.15rem 1rem 0.6rem 0;
   }
 
   .about-story-media img,
   .about-story-media--split img {
     width: 100%;
+    aspect-ratio: 4 / 3;
     border-radius: 16px;
     display: block;
     object-fit: cover;
@@ -243,6 +244,7 @@ redirect_from:
   }
 
   .about-story-copy h3 {
+    margin-top: 0.1rem;
     margin-bottom: 0.45rem;
   }
 
@@ -287,7 +289,15 @@ redirect_from:
     }
 
     .about-story {
+      display: grid;
       grid-template-columns: 1fr;
+    }
+
+    .about-story-media,
+    .about-story-media--split {
+      float: none;
+      width: 100%;
+      margin: 0 0 0.9rem;
     }
 
     .about-story-media--split {
@@ -328,6 +338,17 @@ redirect_from:
     .about-grid--journey {
       grid-template-columns: 1fr;
     }
+
+    .about-story {
+      display: flow-root;
+    }
+
+    .about-story-media,
+    .about-story-media--split {
+      float: left;
+      width: clamp(10.5rem, 34%, 13rem);
+      margin: 0.15rem 1rem 0.6rem 0;
+    }
   }
 
   @media (min-width: 64em) {
@@ -346,6 +367,11 @@ redirect_from:
 
     .about-grid--journey {
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+
+    .about-story-media,
+    .about-story-media--split {
+      width: clamp(10rem, 26%, 12.5rem);
     }
   }
 
