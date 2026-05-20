@@ -9,6 +9,10 @@ redirect_from:
 ---
 
 <style>
+  #main {
+    max-width: min(96vw, 84rem);
+  }
+
   .about-landing {
     --about-ink: #14313d;
     --about-muted: #546a71;
@@ -19,7 +23,7 @@ redirect_from:
     --about-accent: #bd5a38;
     --about-accent-soft: rgba(189, 90, 56, 0.1);
     display: grid;
-    gap: 1.8rem;
+    gap: clamp(1.15rem, 2vw, 1.8rem);
   }
 
   .about-landing h2,
@@ -39,7 +43,7 @@ redirect_from:
   .about-hero {
     position: relative;
     overflow: hidden;
-    padding: 2rem;
+    padding: clamp(1.25rem, 2.5vw, 2rem);
     background:
       radial-gradient(circle at top right, rgba(189, 90, 56, 0.18), transparent 28%),
       radial-gradient(circle at left center, rgba(84, 132, 110, 0.14), transparent 30%),
@@ -131,7 +135,7 @@ redirect_from:
   }
 
   .about-section {
-    padding: 1.7rem;
+    padding: clamp(1.15rem, 2.2vw, 1.7rem);
   }
 
   .about-section-head {
@@ -156,7 +160,7 @@ redirect_from:
 
   .about-grid {
     display: grid;
-    gap: 1rem;
+    gap: clamp(0.9rem, 1.8vw, 1.15rem);
   }
 
   .about-grid--research {
@@ -216,7 +220,7 @@ redirect_from:
     grid-template-columns: minmax(120px, 180px) minmax(0, 1fr);
     gap: 1.1rem;
     align-items: center;
-    padding: 1rem;
+    padding: clamp(0.9rem, 1.5vw, 1rem);
   }
 
   .about-story-media,
@@ -264,14 +268,90 @@ redirect_from:
     margin-bottom: 0;
   }
 
-  @media (max-width: 720px) {
-    .about-hero,
-    .about-section {
-      padding: 1.25rem;
+  @media (max-width: 48em) {
+    #main {
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+    }
+
+    .about-hero-title {
+      font-size: clamp(1.7rem, 8vw, 2.45rem);
+    }
+
+    .about-lead,
+    .about-section-head p,
+    .about-card p,
+    .about-story-copy p,
+    .about-quote {
+      font-size: 0.98rem;
     }
 
     .about-story {
       grid-template-columns: 1fr;
+    }
+
+    .about-story-media--split {
+      grid-template-columns: 1fr;
+    }
+
+    .about-pill-row,
+    .about-cta-row,
+    .about-link-row {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    .about-link,
+    .about-pill {
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 48.0625em) and (max-width: 63.9375em) {
+    #main {
+      max-width: min(96vw, 72rem);
+    }
+
+    .about-pill-row,
+    .about-cta-row,
+    .about-link-row {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      align-items: stretch;
+    }
+
+    .about-link,
+    .about-pill {
+      width: 100%;
+    }
+
+    .about-grid--journey {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (min-width: 64em) {
+    .sidebar {
+      width: 16rem;
+      margin-right: 1.5rem;
+      opacity: 0.92;
+    }
+
+    .page {
+      float: right;
+      width: calc(100% - 17.5rem);
+      margin: 0;
+      padding: 0;
+    }
+
+    .about-grid--journey {
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+  }
+
+  @media (min-width: 90em) {
+    #main {
+      max-width: min(94vw, 88rem);
     }
   }
 </style>
