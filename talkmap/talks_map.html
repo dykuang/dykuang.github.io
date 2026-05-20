@@ -1,45 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Talk map</title>
+  <script src="https://cdn.plot.ly/plotly-3.0.1.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      color-scheme: light;
+      --bg-top: #f8f4ed;
+      --bg-bottom: #e7efe8;
+      --panel: rgba(255, 255, 255, 0.78);
+      --panel-border: rgba(16, 33, 43, 0.12);
+      --ink: #173042;
+      --muted: #526b72;
+      --accent: #d65a31;
+    }
 
-    <!DOCTYPE html>
-    <html>
-    <head>
-    	<title>Leaflet debug page</title>
+    * { box-sizing: border-box; }
 
-    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0-beta.2/leaflet.css" />
-    	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0-beta.2/leaflet.js"></script>
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<link rel="stylesheet" href="leaflet_dist/screen.css" />
+    html, body {
+      margin: 0;
+      min-height: 100%;
+      background:
+        radial-gradient(circle at top left, rgba(214, 90, 49, 0.16), transparent 28%),
+        radial-gradient(circle at top right, rgba(83, 133, 109, 0.18), transparent 32%),
+        linear-gradient(180deg, var(--bg-top), var(--bg-bottom));
+      font-family: "Space Grotesk", sans-serif;
+      color: var(--ink);
+    }
 
-    	<link rel="stylesheet" href="leaflet_dist/MarkerCluster.css" />
-    	<link rel="stylesheet" href="leaflet_dist/MarkerCluster.Default.css" />
-    	<script src="leaflet_dist/leaflet.markercluster-src.js"></script>
-    	<script src="org-locations.js"></script>
+    body { padding: 16px; }
 
-    </head>
-    <body>
+    .frame {
+      width: min(100%, 1100px);
+      margin: 0 auto;
+      background: var(--panel);
+      border: 1px solid var(--panel-border);
+      border-radius: 24px;
+      box-shadow: 0 18px 60px rgba(16, 33, 43, 0.12);
+      overflow: hidden;
+      backdrop-filter: blur(10px);
+    }
 
-    	<div id="map"></div>
-    	<span>Mouse over a cluster to see the bounds of its children and click a cluster to zoom to those bounds</span>
-    	<script type="text/javascript">
-    		var tiles = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
-              maxZoom: 18,
-              attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
-                    }),
-    			latlng = L.latLng(30, 10);
-    		var map = L.map('map', {center: latlng, zoom: 0.7, layers: [tiles]});
-    		var markers = L.markerClusterGroup({
-    			showCoverageOnHover: false,
-    			maxClusterRadius: 80
-    			});
-    		for (var i = 0; i < addressPoints.length; i++) {
-    			var a = addressPoints[i];
-    			var title = a[0];
-    			var marker = L.marker(new L.LatLng(a[1], a[2]), { title: title });
-    			marker.bindPopup(title);
-    			markers.addLayer(marker);
-    		}
-    		map.addLayer(markers);
-    		map.zoomIn();
-    	</script>
-    </body>
-    </html>
-    
+    .header {
+      padding: 18px 20px 8px;
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      font-size: 12px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.4rem, 2.4vw, 2rem);
+      line-height: 1.1;
+    }
+
+    .subhead {
+      margin: 10px 0 0;
+      color: var(--muted);
+      line-height: 1.5;
+      font-size: 0.95rem;
+    }
+
+    #map {
+      width: 100%;
+      height: min(78vh, 720px);
+      min-height: 520px;
+    }
+
+    @media (max-width: 720px) {
+      body { padding: 8px; }
+      .frame { border-radius: 18px; }
+      .header { padding: 14px 14px 2px; }
+      #map { min-height: 460px; height: 68vh; }
+    }
+  </style>
+</head>
+<body>
+  <main class="frame">
+    <header class="header">
+      <p class="eyebrow">Academic travel</p>
+      <h1>Talk locations</h1>
+      <p class="subhead">Hover markers to see talks by city. Drag to pan and use the mouse wheel or trackpad to zoom.</p>
+    </header>
+    <div id="map"></div>
+  </main>
+  <script>
+    const data = [{"type": "scattergeo", "mode": "markers+text", "lat": [51.1784, 40.4406, 22.271, 23.1291, 32.0603, 1.3521, 22.5431, 45.4215, 41.3114], "lon": [-115.5708, -79.9959, 113.5767, 113.2644, 118.7969, 103.8198, 114.0579, -75.6972, -105.5911], "text": ["Banff", "Pittsburgh", "Zhuhai", "Guangzhou", "Nanjing", "Singapore", "Shenzhen", "Ottawa", "Laramie"], "textposition": "top center", "textfont": {"size": 11, "family": "Space Grotesk, sans-serif", "color": "#173042"}, "hovertemplate": "%{customdata}<extra></extra>", "customdata": ["<b>Banff, Alberta, Canada</b><br>Talks: 1<br>- Covnets_in_image_registration", "<b>Pittsburgh, Pennsylvania, USA</b><br>Talks: 1<br>- 2B or not 2B", "<b>Zhuhai, China</b><br>Talks: 1<br>- Harmonic Conference 2026", "<b>Guangzhou, China</b><br>Talks: 1<br>- ICMLC2025", "<b>Nanjing, China</b><br>Talks: 1<br>- ICMLC2026", "<b>Singapore</b><br>Talks: 2<br>- MICCAI2022 - iMIMIC Workshop<br>- MICCAI2022 - MILLanD Workshop", "<b>Shenzhen, China</b><br>Talks: 2<br>- MICCAI2019 - MLMI Workshop<br>- MICCAI2019 - SASHIMI Workshop", "<b>Ottawa, Ontario, Canada</b><br>Talks: 2<br>- Spectra Matching<br>- Medical image registration with neural networks", "<b>Laramie, Wyoming, USA</b><br>Talks: 1<br>- A Bayesian method on landmark momentum data for abnormality detection"], "marker": {"size": [16, 16, 16, 16, 16, 20, 20, 20, 16], "color": "#d65a31", "line": {"color": "#10212b", "width": 1.5}, "opacity": 0.92}}];
+    const layout = {"margin": {"l": 0, "r": 0, "t": 0, "b": 0}, "paper_bgcolor": "rgba(0,0,0,0)", "plot_bgcolor": "rgba(0,0,0,0)", "font": {"family": "Space Grotesk, sans-serif", "color": "#173042"}, "geo": {"scope": "world", "projection": {"type": "natural earth"}, "showland": true, "landcolor": "#e7efe8", "showocean": true, "oceancolor": "#d7e7f0", "showlakes": true, "lakecolor": "#d7e7f0", "showcountries": true, "countrycolor": "#93a8a5", "coastlinecolor": "#5b7982", "bgcolor": "rgba(0,0,0,0)"}};
+    const config = {"responsive": true, "displaylogo": false, "scrollZoom": true};
+    Plotly.newPlot('map', data, layout, config);
+  </script>
+</body>
+</html>
