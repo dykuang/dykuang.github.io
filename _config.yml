@@ -79,8 +79,10 @@ analytics:
 # Site Author
 author:
   name             : "Dongyang Kuang"
+  name_zh          : "邝东阳"
   avatar           : "avatar.jpg"
   bio              : "Assoc. Prof. @ SYSU "
+  bio_zh           : "中山大学 副教授"
   location         : "Zhuhai, Guangdong, China"
   employer         :
   googlescholar    : "https://scholar.google.ca/citations?user=CdlcSHQAAAAJ&hl=en"

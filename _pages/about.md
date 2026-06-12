@@ -384,38 +384,38 @@ redirect_from:
 
 <div class="about-landing">
   <section class="about-hero">
-    <p class="about-kicker">Associate Professor · Sun Yat-sen University</p>
-    <h2 class="about-hero-title">Mathematics, data-driven learning, and interdisciplinary AI.</h2>
-    <p class="about-lead">
+    <p class="about-kicker" data-i18n="about.kicker">Associate Professor · Sun Yat-sen University</p>
+    <h2 class="about-hero-title" data-i18n="about.hero_title">Mathematics, data-driven learning, and interdisciplinary AI.</h2>
+    <p class="about-lead" data-i18n-html="about.lead">
       Hello and welcome. I am an Associate Professor in the <a href="https://mathzh.sysu.edu.cn/">Department of Mathematics, Zhuhai</a> at Sun Yat-sen University. This site is where I collect research, talks, and selected projects across applied mathematics, machine learning, and interdisciplinary data analysis.
     </p>
     <div class="about-pill-row">
-      <span class="about-pill">Interpretable machine learning</span>
-      <span class="about-pill">AI for health, science, and mathematics</span>
-      <span class="about-pill">Mathematical modeling and data analysis</span>
+      <span class="about-pill" data-i18n="about.pill1">Interpretable machine learning</span>
+      <span class="about-pill" data-i18n="about.pill2">AI for health, science, and mathematics</span>
+      <span class="about-pill" data-i18n="about.pill3">Mathematical modeling and data analysis</span>
     </div>
     <div class="about-cta-row">
-      <a class="about-link about-link--accent" href="/publications/">Browse publications</a>
-      <a class="about-link" href="/talks/">See talks</a>
-      <a class="about-link" href="/portfolio/">Explore projects</a>
-      <a class="about-link" href="https://github.com/dykuang">Visit GitHub</a>
+      <a class="about-link about-link--accent" href="/publications/" data-i18n="about.cta_publications">Browse publications</a>
+      <a class="about-link" href="/talks/" data-i18n="about.cta_talks">See talks</a>
+      <a class="about-link" href="/portfolio/" data-i18n="about.cta_projects">Explore projects</a>
+      <a class="about-link" href="https://github.com/dykuang" data-i18n="about.cta_github">Visit GitHub</a>
     </div>
   </section>
 
   <section class="about-section">
     <div class="about-section-head">
-      <span class="about-section-kicker">Research directions</span>
-      <h2>Main Research Interests</h2>
-      <p>
+      <span class="about-section-kicker" data-i18n="about.research.kicker">Research directions</span>
+      <h2 data-i18n="about.research.heading">Main Research Interests</h2>
+      <p data-i18n="about.research.desc">
         My work centers on turning theory-rich problems into practical learning systems: interpretable models, robust training under imperfect data, and AI methods shaped by scientific or mathematical structure rather than raw data alone.
       </p>
     </div>
 
     <div class="about-grid about-grid--research">
       <article class="about-card about-card--warm">
-        <span class="about-tag">Robust learning</span>
-        <h3>Interpretable models under noisy labels</h3>
-        <p>
+        <span class="about-tag" data-i18n="about.card1.tag">Robust learning</span>
+        <h3 data-i18n="about.card1.title">Interpretable models under noisy labels</h3>
+        <p data-i18n="about.card1.desc">
           I study robust learning strategies for affective computing from EEG data, especially when supervision is noisy and explainability matters.
         </p>
         <div class="about-link-row" style="margin-top: 1rem;">
@@ -427,9 +427,9 @@ redirect_from:
       </article>
 
       <article class="about-card about-card--mint">
-        <span class="about-tag">AI4Health</span>
-        <h3>Medical data and image analysis</h3>
-        <p>
+        <span class="about-tag" data-i18n="about.card2.tag">AI4Health</span>
+        <h3 data-i18n="about.card2.title">Medical data and image analysis</h3>
+        <p data-i18n="about.card2.desc">
           I develop AI methods for clinically meaningful problems, with an emphasis on medical images, registration, and learning from imperfect annotations.
         </p>
         <div class="about-link-row" style="margin-top: 1rem;">
@@ -439,9 +439,9 @@ redirect_from:
       </article>
 
       <article class="about-card about-card--soft">
-        <span class="about-tag">AI4Science</span>
-        <h3>Scientific systems guided by domain knowledge</h3>
-        <p>
+        <span class="about-tag" data-i18n="about.card3.tag">AI4Science</span>
+        <h3 data-i18n="about.card3.title">Scientific systems guided by domain knowledge</h3>
+        <p data-i18n="about.card3.desc">
           I am interested in machine learning pipelines that respect physics, chemistry, and other scientific constraints instead of treating every problem as a black box.
         </p>
         <div class="about-link-row" style="margin-top: 1rem;">
@@ -451,9 +451,9 @@ redirect_from:
       </article>
 
       <article class="about-card">
-        <span class="about-tag">AI4Math</span>
-        <h3>Learning methods that serve mathematics</h3>
-        <p>
+        <span class="about-tag" data-i18n="about.card4.tag">AI4Math</span>
+        <h3 data-i18n="about.card4.title">Learning methods that serve mathematics</h3>
+        <p data-i18n="about.card4.desc">
           I also explore how machine learning can support mathematical structures and dynamical systems, including work related to Koopman-inspired modeling.
         </p>
         <div class="about-link-row" style="margin-top: 1rem;">
@@ -465,14 +465,14 @@ redirect_from:
 
   <section class="about-section">
     <div class="about-section-head">
-      <span class="about-section-kicker">Why this site</span>
-      <h2>A place to keep exploring</h2>
-      <p>
+      <span class="about-section-kicker" data-i18n="about.why.kicker">Why this site</span>
+      <h2 data-i18n="about.why.heading">A place to keep exploring</h2>
+      <p data-i18n-html="about.why.desc">
         If you are visiting for the first time, the best entry points are my <a href="/publications/">publications</a>, <a href="/talks/">talks</a>, and code on <a href="https://github.com/dykuang">GitHub</a>. If your interests overlap with robust learning, AI for scientific or medical problems, or applied mathematics, feel free to get in touch.
       </p>
     </div>
     <div class="about-quote">
-      <p>
+      <p data-i18n="about.quote">
         I am not an active blogger, but I do try to keep this site useful: a compact record of what I work on, where ideas came from, and where you can dig deeper.
       </p>
     </div>
@@ -480,9 +480,9 @@ redirect_from:
 
   <section class="about-section">
     <div class="about-section-head">
-      <span class="about-section-kicker">Academic journey</span>
-      <h2>From hometown curiosity to interdisciplinary research</h2>
-      <p>
+      <span class="about-section-kicker" data-i18n="about.journey.kicker">Academic journey</span>
+      <h2 data-i18n="about.journey.heading">From hometown curiosity to interdisciplinary research</h2>
+      <p data-i18n="about.journey.desc">
         The path has moved through mathematics, scientific computing, machine learning, and collaborations across health and industry. These snapshots make that progression easier to read at a glance.
       </p>
     </div>
@@ -493,8 +493,8 @@ redirect_from:
           <img src="/images/UT.jpg" alt="Oden Institute at UT Austin">
         </div>
         <div class="about-story-copy">
-          <h3>Recent postdoc at the Oden Institute</h3>
-          <p>
+          <h3 data-i18n="about.journey1.title">Recent postdoc at the Oden Institute</h3>
+          <p data-i18n-html="about.journey1.desc">
             My most recent postdoc was at the <a href="https://www.oden.utexas.edu/">Oden Institute for Computational Engineering and Sciences</a>, supervised by <a href="https://users.oden.utexas.edu/~michoski/Michoski.html">Dr. Craig Michoski</a>. I developed data-driven and deep learning methods for interdisciplinary applications, and part of that work later evolved into solutions and services at <a href="https://sophelio.io/">Sophelio</a>.
           </p>
         </div>
@@ -506,8 +506,8 @@ redirect_from:
           <img src="/images/SUU.jpg" alt="Southern Utah University">
         </div>
         <div class="about-story-copy">
-          <h3>Ottawa and Southern Utah</h3>
-          <p>
+          <h3 data-i18n="about.journey2.title">Ottawa and Southern Utah</h3>
+          <p data-i18n-html="about.journey2.desc">
             Before that, I was a postdoc in the <a href="http://mysite.science.uottawa.ca/dsml/">Data Science and Machine Learning group</a> at the <a href="https://science.uottawa.ca/mathstat/en">Department of Mathematics and Statistics, University of Ottawa</a>, after a year as a visiting assistant professor at <a href="https://www.suu.edu/">Southern Utah University</a>.
           </p>
         </div>
@@ -518,8 +518,8 @@ redirect_from:
           <img src="/images/UWsnow.jpg" alt="University of Wyoming campus in winter">
         </div>
         <div class="about-story-copy">
-          <h3>PhD at the University of Wyoming</h3>
-          <p>
+          <h3 data-i18n="about.journey3.title">PhD at the University of Wyoming</h3>
+          <p data-i18n-html="about.journey3.desc">
             I received my PhD in Applied Mathematics from the <a href="http://www.uwyo.edu/">University of Wyoming</a>, working on particle methods for Euler-Poincare equations under <a href="http://www.uwyo.edu/llee/">Prof. Long Lee</a>. Collaborations with <a href="https://math.unc.edu/staff/camassa-roberta/">Prof. Roberto Camassa</a> helped push my interests toward data science and machine learning.
           </p>
         </div>
@@ -530,8 +530,8 @@ redirect_from:
           <img src="/images/ustc.jpg" alt="University of Science and Technology of China">
         </div>
         <div class="about-story-copy">
-          <h3>Mathematics training at USTC</h3>
-          <p>
+          <h3 data-i18n="about.journey4.title">Mathematics training at USTC</h3>
+          <p data-i18n-html="about.journey4.desc">
             I earned my bachelor's degree in Mathematics from the <a href="http://en.ustc.edu.cn/">University of Science and Technology of China</a>, where I worked on two-dimensional integration methods with <a href="http://staff.ustc.edu.cn/~dengjs/">Prof. Jiansong Deng</a>.
           </p>
         </div>
@@ -542,8 +542,8 @@ redirect_from:
           <img src="/images/jianou.jpg" alt="Jian'ou in Fujian Province">
         </div>
         <div class="about-story-copy">
-          <h3>Early inspiration in Fujian</h3>
-          <p>
+          <h3 data-i18n="about.journey5.title">Early inspiration in Fujian</h3>
+          <p data-i18n-html="about.journey5.desc">
             I was born in a small town called <em>Jiyang</em> in Fujian Province, China. My days in <a href="http://www.fjjoyz.cn/">high school</a>, together with clubs, competitions, and inspiring teachers, shaped my broad curiosity about science and mathematics.
           </p>
         </div>
@@ -554,8 +554,8 @@ redirect_from:
           <img src="/images/jiyang.jpg" alt="Jiyang hometown">
         </div>
         <div class="about-story-copy">
-          <h3>A personal note</h3>
-          <p>
+          <h3 data-i18n="about.journey6.title">A personal note</h3>
+          <p data-i18n="about.journey6.desc">
             My name comes from the first characters of my parents' first job locations. It is a small reminder that even under practical constraints, there is room to shape life with imagination and intention.
           </p>
         </div>

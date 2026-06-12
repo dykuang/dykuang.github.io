@@ -23,6 +23,57 @@
 <meta name="msapplication-config" content="{{ base_path }}/images/browserconfig.xml?v=M44lzPylqQ">
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
+
+<!-- Language toggle styles -->
+<style>
+  .lang-toggle-wrap {
+    display: inline-flex;
+    align-items: center;
+    margin-left: auto;
+  }
+
+  .lang-toggle-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    height: 32px;
+    padding: 0 10px;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 16px;
+    background: transparent;
+    color: inherit;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s, color 0.2s;
+    line-height: 1;
+    font-family: inherit;
+  }
+
+  .lang-toggle-btn:hover {
+    background: rgba(0,0,0,0.06);
+    border-color: rgba(0,0,0,0.28);
+  }
+
+  /* In the sticky masthead, match the nav link color */
+  .masthead .lang-toggle-btn {
+    color: #6f777d;
+  }
+  .masthead .lang-toggle-btn:hover {
+    color: #494e52;
+  }
+
+  @media (max-width: 48em) {
+    .lang-toggle-btn {
+      min-width: 38px;
+      height: 28px;
+      font-size: 0.72rem;
+      padding: 0 8px;
+    }
+  }
+</style>
 <!-- end custom head snippets -->
 
 

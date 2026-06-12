@@ -9,15 +9,16 @@ redirect_from:
 
 {% include base_path %}
 
-I am currently an Associate Professor in the [Department of Mathematics, Zhuhai](https://mathzh.sysu.edu.cn/) at Sun Yat-sen University. 
+<p data-i18n="cv.intro">I am currently an Associate Professor in the <a href="https://mathzh.sysu.edu.cn/">Department of Mathematics, Zhuhai</a> at Sun Yat-sen University.</p>
+
 <!-- If you are interested, feel free to check a longer version of my <span style="color:blue"> [CV](https://github.com/dykuang/dykuang.github.io/blob/master/Files/MyCV_ver2.0.pdf) </span>. or <span style="color:red"> [CV in Chinese](https://github.com/dykuang/dykuang.github.io/blob/master/Files/CV_Chinese.pdf) </span>. -->
 
-Education
+<span data-i18n="cv.education">Education</span>
 ======
-* B.S. in Mathematics and Applied Mathematics, [University of Science and Technology of China](http://en.ustc.edu.cn/), Hefei, China, 2011.
-* Ph.D in Applied Mathematics, [University of Wyoming](http://www.uwyo.edu/), Laramie, Wyoming, USA, 2016.
+* <span data-i18n="cv.bs">B.S. in Mathematics and Applied Mathematics, [University of Science and Technology of China](http://en.ustc.edu.cn/), Hefei, China, 2011.</span>
+* <span data-i18n="cv.phd">Ph.D in Applied Mathematics, [University of Wyoming](http://www.uwyo.edu/), Laramie, Wyoming, USA, 2016.</span>
 
-Work experience
+<span data-i18n="cv.work">Work experience</span>
 ======
 * Sep 2019 - Sep 2021: Postdoc Fellow
   * [University of Texas at Austin](https://www.utexas.edu/)

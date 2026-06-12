@@ -1,21 +1,27 @@
 # main links links
 main:
   - title: "CV"
+    title_zh: "简历"
     url: /cv/
     
   - title: "Blog Posts"
+    title_zh: "博客文章"
     url: /year-archive/
 
   - title: "Publications"
+    title_zh: "论文发表"
     url: /publications/
     
   - title: "Galleries"
+    title_zh: "项目展示"
     url: /portfolio/
 
   - title: "Talks"
+    title_zh: "学术报告"
     url: /talks/    
 
   - title: "Teaching"
+    title_zh: "教学"
     url: /teaching/    
           
  # title: "Guide"

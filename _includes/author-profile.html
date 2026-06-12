@@ -15,12 +15,12 @@
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    <h3 class="author__name" data-i18n-nav data-nav-en="{{ author.name }}" data-nav-zh="{{ author.name_zh | default: author.name }}">{{ author.name }}</h3>
+    {% if author.bio %}<p class="author__bio" data-i18n-nav data-nav-en="{{ author.bio }}" data-nav-zh="{{ author.bio_zh | default: author.bio }}">{{ author.bio }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
+    <button class="btn btn--inverse" data-i18n="author.follow_btn">Follow</button>
     <ul class="author__urls social-icons">
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
