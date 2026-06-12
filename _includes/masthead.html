@@ -3,6 +3,12 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
+      <div class="masthead__controls">
+        <button id="lang-toggle-btn" class="lang-toggle-btn" type="button" aria-label="Switch language">
+          <span class="lang-opt lang-opt--en">EN</span>
+          <span class="lang-opt lang-opt--zh">中文</span>
+        </button>
+      </div>
       <nav id="site-nav" class="greedy-nav">
         <button class="greedy-nav__toggle" type="button"><div class="navicon"></div></button>
         <ul class="visible-links">
@@ -15,9 +21,6 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}" data-nav-en="{{ link.title }}" data-nav-zh="{{ link.title_zh | default: link.title }}" data-i18n-nav>{{ link.title }}</a></li>
           {% endfor %}
-          <li class="masthead__menu-item lang-toggle-wrap">
-            <button id="lang-toggle-btn" class="lang-toggle-btn" type="button" aria-label="Switch language">中文</button>
-          </li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>

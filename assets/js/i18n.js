@@ -220,10 +220,19 @@
    *  ================================================================ */
   function updateToggleButton() {
     var btn = document.getElementById('lang-toggle-btn');
-    if (btn) {
-      btn.textContent = currentLang === 'zh' ? 'EN' : '中文';
-      btn.setAttribute('aria-label', currentLang === 'zh' ? 'Switch to English' : '切换到中文');
+    if (!btn) return;
+    var enOpt = btn.querySelector('.lang-opt--en');
+    var zhOpt = btn.querySelector('.lang-opt--zh');
+    if (enOpt && zhOpt) {
+      if (currentLang === 'zh') {
+        enOpt.classList.remove('lang-opt--active');
+        zhOpt.classList.add('lang-opt--active');
+      } else {
+        zhOpt.classList.remove('lang-opt--active');
+        enOpt.classList.add('lang-opt--active');
+      }
     }
+    btn.setAttribute('aria-label', currentLang === 'zh' ? 'Switch to English' : '切换到中文');
   }
 
   function toggleLanguage() {
