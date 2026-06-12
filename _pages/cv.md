@@ -12,6 +12,18 @@ redirect_from:
 <style>
   #main {
     max-width: min(96vw, 84rem);
+    margin-top: 0 !important;
+    padding-top: 0;
+  }
+
+  .archive {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  /* Hide the redundant "CV" page title */
+  .page__title {
+    display: none;
   }
 
   .cv-page {
@@ -322,16 +334,6 @@ redirect_from:
   .cv-archive-list .archive__item-excerpt,
   .cv-archive-list .page__meta {
     font-size: 0.92rem;
-  }
-
-  /* Hide the redundant "CV" page title and collapse its space */
-  .page__title {
-    display: none;
-  }
-
-  .archive {
-    margin-top: 0;
-    padding-top: 0;
   }
 
   @media (max-width: 48em) {
