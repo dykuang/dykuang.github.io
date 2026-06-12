@@ -134,6 +134,24 @@ redirect_from:
     color: #fff;
   }
 
+  .cv-link--scholar {
+    border-color: transparent;
+    background: #4285f4;
+    color: #fff;
+  }
+
+  .cv-link--orcid {
+    border-color: transparent;
+    background: #a6ce39;
+    color: #1a1a1a;
+  }
+
+  .cv-link--github {
+    border-color: transparent;
+    background: #24292e;
+    color: #fff;
+  }
+
   .cv-section,
   .cv-archive-panel {
     padding: clamp(1.1rem, 2vw, 1.6rem);
@@ -460,9 +478,9 @@ redirect_from:
       </div>
     </div>
     <div class="cv-link-row" style="margin-top: 1rem;">
-      <a class="cv-link" href="https://scholar.google.ca/citations?user=CdlcSHQAAAAJ&hl=en" target="_blank" rel="noopener" data-i18n="cv.link_scholar">Google Scholar profile</a>
-      <a class="cv-link" href="https://orcid.org/0000-0002-4862-7182" target="_blank" rel="noopener" data-i18n="cv.link_orcid">ORCID</a>
-      <a class="cv-link" href="https://github.com/dykuang" target="_blank" rel="noopener" data-i18n="cv.link_github">GitHub</a>
+      <a class="cv-link cv-link--scholar" href="https://scholar.google.ca/citations?user=CdlcSHQAAAAJ&hl=en" target="_blank" rel="noopener" data-i18n="cv.link_scholar">Google Scholar profile</a>
+      <a class="cv-link cv-link--orcid" href="https://orcid.org/0000-0002-4862-7182" target="_blank" rel="noopener" data-i18n="cv.link_orcid">ORCID</a>
+      <a class="cv-link cv-link--github" href="https://github.com/dykuang" target="_blank" rel="noopener" data-i18n="cv.link_github">GitHub</a>
     </div>
   </section>
 
