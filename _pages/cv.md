@@ -358,7 +358,6 @@ redirect_from:
 <div class="cv-page">
   <section class="cv-hero">
     <p class="cv-kicker" data-i18n="cv.hero_kicker">Academic Profile</p>
-    <h2 data-i18n="cv.hero_title">A faculty CV shaped for research, teaching, and interdisciplinary impact.</h2>
     <p class="cv-lead" data-i18n-html="cv.hero_lead">I am currently an Associate Professor in the <a href="https://mathzh.sysu.edu.cn/">Department of Mathematics, Zhuhai</a> at Sun Yat-sen University. My work spans applied mathematics, interpretable machine learning, medical and scientific AI, and collaborations that connect theory with practice.</p>
     <div class="cv-pill-row">
       <span class="cv-pill" data-i18n="cv.pill1">Applied mathematics</span>
