@@ -306,6 +306,16 @@ redirect_from:
     font-size: 0.92rem;
   }
 
+  /* Hide the redundant "CV" page title and collapse its space */
+  .page__title {
+    display: none;
+  }
+
+  .archive {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
   @media (max-width: 48em) {
     #main {
       padding-left: 0.75rem;
@@ -449,6 +459,11 @@ redirect_from:
         <strong data-i18n="cv.focus4_title">University teaching</strong>
         <span data-i18n="cv.focus4_desc">Teaching that bridges theory, computation, and interdisciplinary applications for students in mathematics and adjacent fields.</span>
       </div>
+    </div>
+    <div class="cv-link-row" style="margin-top: 1rem;">
+      <a class="cv-link" href="https://scholar.google.ca/citations?user=CdlcSHQAAAAJ&hl=en" target="_blank" rel="noopener" data-i18n="cv.link_scholar">Google Scholar profile</a>
+      <a class="cv-link" href="https://orcid.org/0000-0002-4862-7182" target="_blank" rel="noopener" data-i18n="cv.link_orcid">ORCID</a>
+      <a class="cv-link" href="https://github.com/dykuang" target="_blank" rel="noopener" data-i18n="cv.link_github">GitHub</a>
     </div>
   </section>
 
