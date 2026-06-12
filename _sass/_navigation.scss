@@ -189,7 +189,8 @@
     }
   }
 
-  button {
+  > button,
+  > button.greedy-nav__toggle {
     position: absolute;
     height: 100%;
     right: 0;
